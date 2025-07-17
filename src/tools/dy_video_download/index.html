@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Sidepanel</title>
+    <meta charset="UTF-8">
+    <!-- 引入 layui.css -->
+  <link href="../../libs/layui/css/layui.css" rel="stylesheet">
+  <style>
+    /* 自定义样式 */
+    legend {
+      font-size: 16px!important;
+      font-weight: 400;
+    }
+    .layui-form{
+      text-align: center;
+    }
+  </style>
+  </head>
+  <body>
+    <br/>
+    <fieldset class="layui-elem-field">
+        <legend>抖音视频下载助手</legend>
+        <!-- 关键字表单 -->
+        <br/>
+        <form class="layui-form" action="">       
+            <div class="layui-form-item">
+              <div class="layui-form">
+                <textarea name="video_urls" id="video-urls" placeholder="请输入视频链接， 每行一个" class="layui-textarea" rows="15" lay-verify="required"></textarea>
+              </div>
+            </div>  
+
+            <div class="layui-form-item">
+              <div class="layui-from">
+                <button type="button" class="layui-btn" lay-submit id="dy-start-download">开始下载</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+              </div>
+            </div>
+          </form>
+    </fieldset>
+
+    <blockquote class="layui-elem-quote">
+      请先登录抖音。<br/>
+    </blockquote>
+
+    <!-- 引入 layui.js -->
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="download.js"></script>
+
+  </body>
+</html>

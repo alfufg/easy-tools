@@ -1,0 +1,59 @@
+{
+    "name": "Easy Tools",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs", 
+      "sidePanel",
+      "scripting",
+      "activeTab",
+      "webNavigation",
+      "webRequest",
+      "notifications",
+      "debugger",
+      "desktopCapture",
+      "downloads",
+      "tabCapture",
+      "fileSystem"
+    ],
+    "host_permissions": [
+      "<all_urls>",
+      "*://*.xiaohongshu.com/*",
+      "*://*.douyin.com/*"
+    ],
+    "side_panel": {
+      "default_path": "./src/popup/index.html"
+    },
+    "action": {
+        "default_title": "Ben's tools"
+    },
+    "background": {
+      "service_worker": "./src/background.js",
+      "type": "module"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": [
+          "./src/libs/jquery/jquery-3.7.1.min.js"
+        ],
+        "run_at": "document_start"
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "src/*"
+        ],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+    },
+    "icons": {
+      "16": "./src/assets/icons/easytools.png",
+      "48": "./src/assets/icons/easytools.png",
+      "128": "./src/assets/icons/easytools.png"
+    }
+  }

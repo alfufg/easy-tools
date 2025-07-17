@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Sidepanel</title>
+    <meta charset="UTF-8">
+    <!-- 引入 layui.css -->
+  <link href="../../libs/layui/css/layui.css" rel="stylesheet">
+  <style>
+    /* 自定义样式 */
+    legend {
+      font-size: 16px!important;
+      font-weight: 400;
+    }
+  </style>
+  </head>
+  <body>
+    <br/>
+    <fieldset class="layui-elem-field">
+        <legend>小红书评论采集</legend>
+        <!-- 关键字表单 -->
+        <div class="layui-tab">
+            <ul class="layui-tab-title">
+              <li class="layui-this">Keyword</li>
+              <li>Links</li>
+              <li>User</li>
+              <!-- <li><a href="" target="_blank" class="layui-font-blue">Doc</a></li> -->
+              <li><a href="../demo/handsontable/table_demo.html" target="_blank" class="layui-font-blue">Data</a></li>
+            </ul>
+            <div class="layui-tab-content">
+              <div class="layui-tab-item layui-show">
+                <form class="layui-form" action="" id="keyword-form">
+                    <div class="layui-form-item">
+                      <label class="layui-form-label">搜索关键字</label>
+                      <div class="layui-input-inline">
+                          <div class="layui-input-wrap" style="position: relative;">
+                              <input type="text" id="search-input" class="layui-input" layer-verify="required" placeholder="搜索..." 
+                                     style="padding-right: 38px; position: relative; z-index: 0;">
+                              <span class="layui-input-suffix" 
+                                    style="cursor: pointer; position: absolute; right: 0px; top: 50%; 
+                                           transform: translateY(-50%); z-index: 1; pointer-events: auto;border-left: 1px solid #e6e6e6;" 
+                                    id="xhs-keyword-search">
+                                <i class="layui-icon layui-icon-search" style="font-size: 16px;"></i>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="layui-form-item">
+                    <label class="layui-form-label">笔记类型</label>
+                    <div class="layui-input-inline">
+                      <select name="xhs-note-type" lay-filter="guizi">
+                          <option value="">请选择笔记类型</option>
+                          <option value="all" selected>全部</option>
+                          <option value="image">图文</option>
+                          <option value="video">视频</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="layui-form-item">
+                      <label class="layui-form-label">搜索规则</label>
+                      <div class="layui-input-inline">
+                        <select name="xhs-note-sort" lay-filter="guizi">
+                            <option value="">请选择排序规则</option>
+                            <option value="综合" selected>综合</option>
+                            <option value="最热">最热</option>
+                            <option value="最新">最新</option>
+                        </select>
+                      </div>
+                    </div>
+
+                  <div class="layui-form-item">              
+                    <label class="layui-form-label">子评论采集</label>
+                    <div class="layui-input-inline">
+                      <input type="checkbox" name="show-more" title="ON|OFF" lay-skin="switch" id="keyword-show-more" checked> 
+                    </div>              
+                  </div>
+                  <div class="layui-form-item">              
+                      <label class="layui-form-label">帖子总数</label>
+                      <div class="layui-input-inline">
+                        <input type="number" name="note_cnt" placeholder="20"  autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                      </div>              
+                  </div>
+                  <div class="layui-form-item">
+                        <label class="layui-form-label">评论总数</label>
+                        <div class="layui-input-inline">
+                          <input type="number" name="comment_cnt" placeholder="500" autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">单帖评论数</label>
+                        <div class="layui-input-inline">
+                          <input type="number" name="note_comment_cnt" placeholder="100" autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                        </div>
+                    </div>         
+                  <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <button type="button" class="layui-btn" lay-submit lay-filter="demo1" id="xhs-keyword-start-crawler">立即提交</button>
+                      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="layui-tab-item">
+                <form class="layui-form" action="">       
+                    <div class="layui-form-item layui-form-text">
+                      <label class="layui-form-label">笔记链接</label>
+                      <div class="layui-input-block">
+                        <textarea name="note_links" placeholder="请输入链接， 每行一个" class="layui-textarea" rows="10" id="note-links"></textarea>
+                      </div>
+                    </div>
+                    <div class="layui-form-item">              
+                      <label class="layui-form-label">子评论采集</label>
+                      <div class="layui-input-inline">
+                        <input type="checkbox" name="show-more" title="ON|OFF" lay-skin="switch" id="note-links-show-more" checked> 
+                      </div>              
+                    </div>
+                    <div class="layui-form-item">
+                      <label class="layui-form-label">评论总数</label>
+                      <div class="layui-input-inline">
+                        <input type="number" name="comment_cnt" id="note-links-comment-cnt" placeholder="500" autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                      </div>
+                  </div>
+                  <div class="layui-form-item">
+                      <label class="layui-form-label">单帖评论数</label>
+                      <div class="layui-input-inline">
+                        <input type="number" name="note_comment_cnt" id="note-links-note-comment-cnt" placeholder="100" autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                      </div>
+                  </div>  
+                    <div class="layui-form-item">
+                      <div class="layui-input-block">
+                        <button type="button" class="layui-btn" lay-submit lay-filter="demo1" id="xhs-links-start-crawler">立即提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                      </div>
+                    </div>
+                  </form>
+              </div>
+              <div class="layui-tab-item">
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                      <label class="layui-form-label">用户ID</label>
+                      <div class="layui-input-inline">
+                          <div class="layui-input-wrap" style="position: relative;">
+                              <input type="text" id="user-id-input" class="layui-input" placeholder="" 
+                                     style="padding-right: 38px; position: relative; z-index: 0;">
+                              <span class="layui-input-suffix" 
+                                    style="cursor: pointer; position: absolute; right: 0px; top: 50%; 
+                                           transform: translateY(-50%); z-index: 1; pointer-events: auto;border-left: 1px solid #e6e6e6;" 
+                                    id="xhs-keyword-search">
+                                <i class="layui-icon layui-icon-search" style="font-size: 16px;"></i>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="layui-form-item">              
+                      <label class="layui-form-label">帖子总数</label>
+                      <div class="layui-input-inline">
+                        <input type="number" name="note_cnt" placeholder="20"  autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                      </div>              
+                  </div>
+                  <div class="layui-form-item">              
+                    <label class="layui-form-label">子评论采集</label>
+                    <div class="layui-input-inline">
+                      <input type="checkbox" name="show-more" title="ON|OFF" lay-skin="switch" id="user-show-more" checked> 
+                    </div>              
+                  </div>
+                  <div class="layui-form-item">
+                        <label class="layui-form-label">评论总数</label>
+                        <div class="layui-input-inline">
+                          <input type="number" name="comment_cnt" placeholder="500" autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">单帖评论数</label>
+                        <div class="layui-input-inline">
+                          <input type="number" name="note_comment_cnt" placeholder="60" autocomplete="off" class="layui-input" min="0" step="20" lay-affix="number">
+                        </div>
+                    </div>         
+                  <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <button type="button" class="layui-btn" lay-submit lay-filter="demo1" id="xhs-user-start-crawler">立即提交</button>
+                      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+
+        <div class="layui-field-box" style="display: none;">
+            <div class="layui-btn-container">
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>单功能测试</legend>
+                </fieldset>
+                <button type="button" class="layui-btn layui-btn-primary layui-btn-radius" id="open-xhs-home">打开主页</button>
+                <button type="button" class="layui-btn layui-btn-radius" id="xhs_note_crawler">爬取帖子</button>
+                <button type="button" class="layui-btn layui-btn-normal layui-btn-radius" id="xhs_comment_crawler">爬取评论</button>
+                <button type="button" class="layui-btn layui-btn-warm layui-btn-radius" id="xhs_edit_sort">更改排序</button>
+                <button type="button" class="layui-btn layui-btn-danger layui-btn-radius" id="xhs_edit_type">更改类型</button>
+                <button type="button" class="layui-btn layui-btn-radius" id="xhs_comment_listener">监听评论</button>
+            </div>
+        </div>
+    </fieldset>
+
+    <!-- 引入 layui.js -->
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../../libs/sheetjs/xlsx.full.min.js"></script>
+    <script src="../../libs/moment/moment.js"></script>
+    <script src="sidepanel.js"></script>
+
+  </body>
+</html>

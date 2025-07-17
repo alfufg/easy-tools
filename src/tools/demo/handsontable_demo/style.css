@@ -1,0 +1,37 @@
+.hot-container {
+
+    overflow: visible; /* 新增overflow可见性设置 */
+}
+.toolbar {
+    margin-bottom: 10px;
+}
+.export-btn {
+    padding: 6px 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+
+/* 序号列样式 */
+.htRowHeaders {
+    background: #f8f9fa;
+    color: #495057;
+    font-weight: 500;
+    text-align: center !important;
+    border-right: 2px solid #dee2e6;
+}
+
+/* 行号单元格 */
+.htRowHeader span {
+    display: block;
+    padding: 10px;
+}
+
+/* 隐藏序号列的筛选按钮 */
+th:first-child div button {
+    display: none !important;
+}

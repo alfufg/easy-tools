@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Sidepanel</title>
+    <meta charset="UTF-8">
+    <!-- 引入 layui.css -->
+  <link href="../../libs/layui/css/layui.css" rel="stylesheet">
+  <style>
+    /* 自定义样式 */
+    legend {
+      font-size: 16px!important;
+      font-weight: 400;
+    }
+    .layui-form{
+      text-align: center;
+    }
+  </style>
+  </head>
+  <body>
+    <br/>
+    <fieldset class="layui-elem-field">
+        <legend>网站收录排位查询</legend>
+
+        <br/>
+        <form class="layui-form" action="">       
+
+          <div class="layui-form-item">
+            <label class="layui-form-label">搜索关键词</label>
+            <div class="layui-input-inline">
+              <input type="text" name="seo_keyword" id="seo-keyword" value="头条易" placeholder="请输入搜索关键词"  class="layui-input">
+            </div>
+          </div>
+          <div class="layui-form-item">
+            <label class="layui-form-label">匹配网址</label>
+            <div class="layui-input-inline">
+              <input type="text" name="seo_url" id="seo-url" value="www.toutiaoeasy.cn" placeholder="请输入匹配网址"  class="layui-input">
+
+            </div>
+          </div>
+            <div class="layui-form-item">
+              <div class="layui-form">
+                <input type="checkbox" name="platform[]" value="baidu" title="百度" lay-skin="tag" checked>
+                <input type="checkbox" name="platform[]" value="bing" title="必应" lay-skin="tag" checked> 
+                <input type="checkbox" name="platform[]" value="360" title="360" lay-skin="tag" checked>
+                <input type="checkbox" name="platform[]" value="sogou" title="搜狗" lay-skin="tag" checked>
+                <input type="checkbox" name="platform[]" value="shenma" title="神马" lay-skin="tag" checked>
+                <input type="checkbox" name="platform[]" value="kuake" title="夸克" lay-skin="tag" checked>
+              </div>
+            </div> 
+            <div class="layui-form-item">
+              <div class="layui-from">
+                <button type="button" class="layui-btn" lay-submit id="star-search">提交查询</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+              </div>
+            </div>
+          </form>
+          <div class="layui-form-item">
+            <div class="layui-form">
+              <textarea name="sort_result" id="sort_result" placeholder="返回结果" class="layui-textarea" rows="15" readonly></textarea>
+
+            </div>
+          </div>  
+    </fieldset>
+
+    <blockquote class="layui-elem-quote">
+      通过制定搜索关键词和匹配网址<br/>
+      获取该关键词在各大搜索引擎的收录情况<br/>
+    </blockquote>
+
+    <!-- 引入 layui.js -->
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="search.js"></script>
+
+  </body>
+</html>

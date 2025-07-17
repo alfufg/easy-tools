@@ -1,0 +1,23 @@
+{
+    "name": "TTY Tools",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "tabs", 
+      "sidePanel",
+      "scripting",
+      "activeTab",
+      "webNavigation"
+    ],
+    "host_permissions": ["*://*.xiaohongshu.com/*"],
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "action": {
+        "default_title": "click to open side panel"
+    },
+    "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+    }
+  }
