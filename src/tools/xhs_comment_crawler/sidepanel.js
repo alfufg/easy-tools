@@ -466,7 +466,15 @@ document.addEventListener('DOMContentLoaded', () => {
         // 3. 导出
         const workbook = XLSX.utils.book_new();
         XLSX.utils.book_append_sheet(workbook, worksheet, "小红书评论数据");
-        XLSX.writeFile(workbook, `${filename}_${moment().format('YYYYMMDDHHmmss')}.xlsx`);
+        // XLSX.writeFile(workbook, `${filename}_${moment().format('YYYYMMDDHHmmss')}.xlsx`);
+
+        // 生成二进制文件内容
+        const wbout = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
+        // 创建 Blob 并触发下载
+        saveAs(
+            new Blob([wbout], { type: 'application/octet-stream' }),
+            `${filename}_${moment().format('YYYYMMDDHHmmss')}.xlsx`
+        );
     }
 
     // 新增文件保存函数TXT
