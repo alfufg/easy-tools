@@ -169,5 +169,8 @@ document.addEventListener('DOMContentLoaded', () => {
             360搜索排位: ${so360_sort}
         `
     });
+    document.querySelector('#btn-back').addEventListener('click', () => {
+        window.history.back();
+    })
 });
 

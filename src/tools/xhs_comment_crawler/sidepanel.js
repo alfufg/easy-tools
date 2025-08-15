@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const XHS_NOTE_COMMENT_CRAWL_CNT = 100; // 小红书单笔记爬取评论数量
     const SCROLL_CNT = 999; // 滚动次数
 
+    document.querySelector('#btn-back').addEventListener('click', () => {
+        window.history.back();
+    })
 
     // 打开小红书主页
     document.querySelector('#open-xhs-home').addEventListener('click', () => {

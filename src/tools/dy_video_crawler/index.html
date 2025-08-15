@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>星图视频数据采集</title>
+    <!-- 引入 layui.css -->
+    <link href="../../libs/layui/css/layui.css" rel="stylesheet">
+    <style>
+        /* 自定义样式 */
+        legend {
+          font-size: 16px!important;
+          font-weight: 400;
+        }
+        .layui-form{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 10px;">
+        <button type="button" class="layui-btn layui-btn-sm layui-btn-primary" id="btn-back">
+            <i class="layui-icon layui-icon-left"></i>返回
+        </button>
+    </div>
+    <fieldset class="layui-elem-field">
+        <legend>星图视频数据采集</legend>
+        <form class="layui-form" action="" lay-filter="form1">
+            <div class="layui-form-item">
+                <label class="layui-form-label">当前账号</label>
+                <div class="layui-input-block">
+                    <textarea name="current_account" value="" lay-verify="required" lay-reqtext="请输入当前账号唯一标识" placeholder="点击以下按钮，获取当前账号唯一标识" class="layui-textarea" style="height: 180px;"></textarea>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button type="button" class="layui-btn" id="getCookie">获取账号唯一标识</button>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">达人链接</label>
+                <div class="layui-input-block">
+                    <textarea name="daren_link" value="" lay-verify="required" lay-reqtext="请输入星图达人链接或星图ID，每行一个" placeholder="请输入星图达人链接或星图ID，每行一个，示例：https://www.xingtu.cn/ad/creator/author-homepage/douyin-video/7308388180431110181 或 7308388180431110181" class="layui-textarea" style="height: 300px;"></textarea>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                  <button type="submit" class="layui-btn" lay-submit lay-filter="formSubmit">立即提交</button>
+                  <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </fieldset>
+
+    <!-- <script src="../../libs/jquery/jquery-3.7.1.min.js"></script> -->
+    <!-- 引入 layui.js -->
+    <script src="../../libs/layui/layui.js"></script>
+    <script src="../../libs/sheetjs/xlsx.full.min.js"></script>
+    <script src="../../libs/filesaver/FileSaver.min.js"></script>
+    <script src="../../libs/moment/moment.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

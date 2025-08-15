@@ -3,7 +3,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "permissions": [
-      "tabs", 
+      "tabs",
       "sidePanel",
       "scripting",
       "activeTab",
@@ -14,7 +14,9 @@
       "desktopCapture",
       "downloads",
       "tabCapture",
-      "fileSystem"
+      "fileSystem",
+      "cookies",
+      "storage"
     ],
     "host_permissions": [
       "<all_urls>",

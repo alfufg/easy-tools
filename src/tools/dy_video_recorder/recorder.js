@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log("recorder.js loaded");
+
+    document.querySelector('#btn-back').addEventListener('click', () => {
+        window.history.back();
+    })
+
     let mediaRecorder;
     let recordedChunks = [];
     

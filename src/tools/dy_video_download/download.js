@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   console.log("dy_video_download/download.js loaded");
 
+  document.querySelector('#btn-back').addEventListener('click', () => {
+    window.history.back();
+  })
+
   document.querySelector('#dy-start-download').addEventListener('click', async () => {
     console.log("dy_start_download clicked");
 
