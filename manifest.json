@@ -1,20 +1,19 @@
 {
     "name": "Easy Tools",
-    "version": "1.0",
+    "short_name": "EasyTools",
+    "version": "1.0.0",
     "manifest_version": 3,
+    "description": "多工具合一的浏览器扩展，提供小红书评论采集、抖音评论采集、视频下载、录屏、SEO排位查询等实用功能",
+    "author": "Ben",
+    "homepage_url": "https://github.com/ben/easy-tools",
     "permissions": [
       "tabs",
       "sidePanel",
       "scripting",
       "activeTab",
       "webNavigation",
-      "webRequest",
       "notifications",
-      "debugger",
-      "desktopCapture",
       "downloads",
-      "tabCapture",
-      "fileSystem",
       "cookies",
       "storage"
     ],
@@ -54,8 +53,8 @@
         "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
     },
     "icons": {
-      "16": "./src/assets/icons/easytools.png",
-      "48": "./src/assets/icons/easytools.png",
-      "128": "./src/assets/icons/easytools.png"
+      "16": "./src/assets/icons/icon16.png",
+      "48": "./src/assets/icons/icon48.png",
+      "128": "./src/assets/icons/icon128.png"
     }
   }
