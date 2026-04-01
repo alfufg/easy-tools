@@ -1,0 +1,118 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - link [ref=e6] [cursor=pointer]:
+      - /url: //www.douyin.com/jingxuan
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - link "精选" [ref=e18] [cursor=pointer]:
+          - /url: https://www.douyin.com/jingxuan?from_nav=1
+          - generic [ref=e21]: 精选
+        - link "推荐" [ref=e25] [cursor=pointer]:
+          - /url: https://www.douyin.com/?recommend=1&from_nav=1
+          - generic [ref=e28]: 推荐
+        - link "搜索" [ref=e32] [cursor=pointer]:
+          - /url: https://www.douyin.com/aisearch?from_nav=1
+          - generic [ref=e35]: 搜索
+        - link "关注" [ref=e39] [cursor=pointer]:
+          - /url: https://www.douyin.com/follow?from_nav=1
+          - generic [ref=e42]: 关注
+        - link "朋友" [ref=e46] [cursor=pointer]:
+          - /url: https://www.douyin.com/friend?from_nav=1
+          - generic [ref=e49]: 朋友
+        - link "我的" [ref=e53] [cursor=pointer]:
+          - /url: https://www.douyin.com/user/self?from_nav=1
+          - generic [ref=e56]: 我的
+        - link "直播" [ref=e61] [cursor=pointer]:
+          - /url: https://live.douyin.com/?from_nav=1
+          - generic [ref=e64]: 直播
+        - link "放映厅" [ref=e68] [cursor=pointer]:
+          - /url: https://www.douyin.com/vs?from_nav=1
+          - generic [ref=e71]: 放映厅
+        - link "短剧" [ref=e75] [cursor=pointer]:
+          - /url: https://www.douyin.com/series?from_nav=1
+          - generic [ref=e78]: 短剧
+      - generic [ref=e80]:
+        - img [ref=e83] [cursor=pointer]
+        - img [ref=e87] [cursor=pointer]
+        - img [ref=e91] [cursor=pointer]
+  - generic [ref=e93]:
+    - banner [ref=e97]:
+      - generic [ref=e99]:
+        - generic [ref=e103]:
+          - textbox "搜索你感兴趣的内容" [ref=e105]: 嘉士伯
+          - button "搜索" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: 搜索
+        - generic [ref=e114]:
+          - generic [ref=e116] [cursor=pointer]:
+            - img [ref=e118]:
+              - img [ref=e119]
+            - paragraph [ref=e121]: 充值
+          - link "客户端" [ref=e126] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e128]:
+              - img [ref=e130]:
+                - img [ref=e131]
+              - paragraph [ref=e134]: 客户端
+          - generic [ref=e136] [cursor=pointer]:
+            - img [ref=e138]:
+              - img [ref=e139]
+            - paragraph [ref=e141]: 壁纸
+          - list [ref=e142]:
+            - generic [ref=e146] [cursor=pointer]:
+              - img [ref=e148]:
+                - img [ref=e149]
+              - paragraph [ref=e152]: 通知
+          - list [ref=e153]:
+            - generic [ref=e157] [cursor=pointer]:
+              - img [ref=e159]:
+                - img [ref=e160]
+              - paragraph [ref=e164]: 私信
+          - generic [ref=e168] [cursor=pointer]:
+            - img [ref=e170]:
+              - img [ref=e171]
+            - paragraph [ref=e173]: 投稿
+          - button "登录" [ref=e177] [cursor=pointer]:
+            - paragraph [ref=e179]: 登录
+    - generic [ref=e182]:
+      - generic [ref=e186]:
+        - generic [ref=e187] [cursor=pointer]: 综合
+        - generic [ref=e188] [cursor=pointer]: 视频
+        - generic [ref=e189] [cursor=pointer]: 用户
+        - generic [ref=e190] [cursor=pointer]: 直播
+        - generic [ref=e192] [cursor=pointer]:
+          - text: 筛选
+          - img [ref=e193]
+      - list [ref=e197]:
+        - listitem [ref=e198]:
+          - img [ref=e202]
+        - listitem [ref=e208]:
+          - img [ref=e212]
+        - listitem [ref=e218]:
+          - img [ref=e222]
+        - listitem [ref=e228]:
+          - img [ref=e232]
+        - listitem [ref=e238]:
+          - img [ref=e242]
+        - listitem [ref=e248]:
+          - img [ref=e252]
+        - listitem [ref=e258]:
+          - img [ref=e262]
+        - listitem [ref=e268]:
+          - img [ref=e272]
+        - listitem [ref=e278]:
+          - img [ref=e282]
+        - listitem [ref=e288]:
+          - img [ref=e292]
+        - listitem [ref=e298]:
+          - img [ref=e302]
+        - listitem [ref=e308]:
+          - img [ref=e312]
+        - listitem [ref=e318]:
+          - img [ref=e322]
+        - listitem [ref=e328]:
+          - img [ref=e332]
+        - listitem [ref=e338]:
+          - img [ref=e342]
+        - listitem [ref=e348]:
+          - img [ref=e352]

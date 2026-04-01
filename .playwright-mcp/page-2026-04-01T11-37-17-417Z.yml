@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - button "开启读屏标签" [ref=e2]
+  - generic: 读屏标签已关闭
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: //www.douyin.com/jingxuan
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - link "精选" [ref=e19] [cursor=pointer]:
+            - /url: https://www.douyin.com/jingxuan?from_nav=1
+            - generic [ref=e22]: 精选
+          - link "推荐" [ref=e26] [cursor=pointer]:
+            - /url: https://www.douyin.com/?recommend=1&from_nav=1
+            - generic [ref=e29]: 推荐
+          - link "搜索" [ref=e33] [cursor=pointer]:
+            - /url: https://www.douyin.com/aisearch?from_nav=1
+            - generic [ref=e36]: 搜索
+          - link "关注" [ref=e40] [cursor=pointer]:
+            - /url: https://www.douyin.com/follow?from_nav=1
+            - generic [ref=e43]: 关注
+          - link "朋友" [ref=e47] [cursor=pointer]:
+            - /url: https://www.douyin.com/friend?from_nav=1
+            - generic [ref=e50]: 朋友
+          - link "我的" [ref=e54] [cursor=pointer]:
+            - /url: https://www.douyin.com/user/self?from_nav=1
+            - generic [ref=e57]: 我的
+          - link "直播" [ref=e62] [cursor=pointer]:
+            - /url: https://live.douyin.com/?from_nav=1
+            - generic [ref=e65]: 直播
+          - link "放映厅" [ref=e69] [cursor=pointer]:
+            - /url: https://www.douyin.com/vs?from_nav=1
+            - generic [ref=e72]: 放映厅
+          - link "短剧" [ref=e76] [cursor=pointer]:
+            - /url: https://www.douyin.com/series?from_nav=1
+            - generic [ref=e79]: 短剧
+        - generic [ref=e81]:
+          - img [ref=e84] [cursor=pointer]
+          - img [ref=e88] [cursor=pointer]
+          - img [ref=e92] [cursor=pointer]
+    - generic [ref=e94]:
+      - banner [ref=e97]:
+        - generic [ref=e99]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e106]: 皮尔森啤酒6.18升多少钱
+              - textbox [ref=e107]
+            - button "搜索" [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+              - generic [ref=e112]: 搜索
+          - generic [ref=e116]:
+            - generic [ref=e121] [cursor=pointer]:
+              - img [ref=e123]:
+                - img [ref=e124]
+              - paragraph [ref=e126]: 充钻石
+            - link "客户端" [ref=e131] [cursor=pointer]:
+              - /url: https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/325923913/7.5.1/darwin-universal/douyin-v7.5.1-darwin-universal.dmg
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - img [ref=e135]:
+                    - img [ref=e136]
+                  - paragraph [ref=e139]: 客户端
+                - img [ref=e141]
+            - generic [ref=e147] [cursor=pointer]:
+              - img [ref=e149]:
+                - img [ref=e150]
+              - generic [ref=e152]: 壁纸
+            - list [ref=e153]:
+              - generic [ref=e157] [cursor=pointer]:
+                - img [ref=e159]:
+                  - img [ref=e160]
+                - paragraph [ref=e163]: 通知
+            - list [ref=e164]:
+              - generic [ref=e168] [cursor=pointer]:
+                - img [ref=e170]:
+                  - img [ref=e171]
+                - paragraph [ref=e175]: 私信
+            - generic [ref=e179] [cursor=pointer]:
+              - img [ref=e181]:
+                - img [ref=e182]
+              - paragraph [ref=e184]: 投稿
+            - button "登录" [ref=e188] [cursor=pointer]:
+              - generic [ref=e189]:
+                - img [ref=e190]
+                - paragraph [ref=e193]: 登录
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - img [ref=e200]
+              - generic [ref=e203]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - img [ref=e209] [cursor=pointer]:
+                      - img [ref=e210]
+                    - generic [ref=e213] [cursor=pointer]:
+                      - generic [ref=e214]: 00:00
+                      - generic [ref=e215]: /
+                      - generic [ref=e216]: 03:31
+                    - img [ref=e220] [cursor=pointer]
+                  - generic [ref=e231]:
+                    - img [ref=e234] [cursor=pointer]:
+                      - img [ref=e235]
+                    - img [ref=e239] [cursor=pointer]
+                    - img [ref=e243] [cursor=pointer]:
+                      - img [ref=e244]
+                    - img [ref=e248] [cursor=pointer]:
+                      - img [ref=e249]
+                    - img [ref=e255] [cursor=pointer]
+                    - generic [ref=e258] [cursor=pointer]: 倍速
+                    - generic [ref=e261] [cursor=pointer]: 智能
+                    - generic [ref=e264] [cursor=pointer]:
+                      - button [ref=e265]
+                      - generic [ref=e266]: 清屏
+                    - generic [ref=e269] [cursor=pointer]:
+                      - button [ref=e270]
+                      - generic [ref=e271]: 连播
+                - generic [ref=e275]:
+                  - img [ref=e277]:
+                    - img [ref=e278]
+                  - img [ref=e282]:
+                    - img [ref=e283]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic [ref=e287]:
+                      - generic [ref=e289]: 章节要点
+                      - img
+                    - generic:
+                      - generic [ref=e291]: 山姆的嘉士伯皮尔森与普通嘉士伯、喜力进行了对比。嘉士伯皮尔森口感偏米香，类似荷兰金刚桶；普通嘉士伯更浓郁，麦香味更重，属于经典拉格；喜力是代表皮尔森风格的啤酒，口感清爽，风味均衡。
+                      - generic:
+                        - generic [ref=e292] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e294]
+                            - generic [ref=e296]: 00:03
+                            - generic: 引言
+                        - generic [ref=e297] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e299]
+                            - generic [ref=e301]: 00:34
+                            - generic: 嘉士伯皮尔森
+                          - generic [ref=e302]:
+                            - paragraph: 嘉士伯皮尔森口感偏米香，类似荷兰金刚桶。
+                        - generic [ref=e303] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e305]
+                            - generic [ref=e307]: 00:39
+                            - generic: 普通嘉士伯
+                          - generic [ref=e308]:
+                            - paragraph: 普通嘉士伯更浓郁，麦香味更重，属于经典拉格。
+                        - generic [ref=e309] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e311]
+                            - generic [ref=e313]: 01:17
+                            - generic: 喜力
+                          - generic [ref=e314]:
+                            - paragraph: 喜力是代表皮尔森风格的啤酒，酒精度3.4度，口感清爽，风味均衡。
+                        - generic [ref=e315] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e317]
+                            - generic [ref=e319]: 02:52
+                            - generic: 结论
+                          - generic [ref=e320]:
+                            - paragraph: 山姆嘉士伯皮尔森非标准皮尔森，更像荷兰金刚桶；普通嘉士伯是好喝的拉格；喜力表现均衡，具有皮尔森风味。
+            - generic [ref=e322]:
+              - 'heading "激斗！嘉士伯皮尔森VS嘉士伯VS喜力 #山姆 #精酿啤酒#啤酒爱好者#随时随地标记一下#真实生活分享计划" [level=1] [ref=e325]':
+                - generic [ref=e328]:
+                  - generic [ref=e331]: 激斗！嘉士伯皮尔森VS嘉士伯VS喜力
+                  - link "#山姆" [ref=e333] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E5%B1%B1%E5%A7%86?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#精酿啤酒" [ref=e338] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E7%B2%BE%E9%85%BF%E5%95%A4%E9%85%92?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#啤酒爱好者" [ref=e340] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E5%95%A4%E9%85%92%E7%88%B1%E5%A5%BD%E8%80%85?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#随时随地标记一下" [ref=e342] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E9%9A%8F%E6%97%B6%E9%9A%8F%E5%9C%B0%E6%A0%87%E8%AE%B0%E4%B8%80%E4%B8%8B?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#真实生活分享计划" [ref=e344] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E7%9C%9F%E5%AE%9E%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB%E8%AE%A1%E5%88%92?enter_from=video_detail&source=pc_click_hashtag_feed
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e347] [cursor=pointer]:
+                    - img [ref=e350]
+                    - generic [ref=e358]: "44"
+                  - generic [ref=e359] [cursor=pointer]:
+                    - img [ref=e362]
+                    - generic [ref=e367]: "7"
+                  - generic [ref=e368] [cursor=pointer]:
+                    - img [ref=e371]
+                    - generic [ref=e380]: "5"
+                  - generic [ref=e381] [cursor=pointer]:
+                    - img [ref=e384]
+                    - generic [ref=e389]: "12"
+                - generic [ref=e390]:
+                  - generic [ref=e391] [cursor=pointer]:
+                    - img [ref=e392]
+                    - generic [ref=e394]: 举报
+                  - generic [ref=e395]: 发布时间：2025-12-15 17:18
+            - generic [ref=e399]:
+              - generic [ref=e401]: 全部评论
+              - generic [ref=e404]:
+                - img [ref=e407] [cursor=pointer]
+                - generic [ref=e416] [cursor=pointer]: 请先登录后发表评论
+              - generic [ref=e418]:
+                - generic [ref=e419]: 大家都在搜：
+                - link "嘉士伯皮尔森500ml整箱" [ref=e423] [cursor=pointer]:
+                  - /url: //www.douyin.com/search/%E5%98%89%E5%A3%AB%E4%BC%AF%E7%9A%AE%E5%B0%94%E6%A3%AE500ml%E6%95%B4%E7%AE%B1?aweme_id=7584011665516072232&enter_from=video_detail&gid=7584011665516072232&source=comment_related_search
+                  - generic [ref=e424]: 嘉士伯皮尔森500ml整箱
+                  - img [ref=e425]
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - link "林师傅的微醺电台" [ref=e432] [cursor=pointer]:
+                - /url: //www.douyin.com/user/MS4wLjABAAAA-q8kSBjLBgHqWzn-p0sDtgKU6Y4GAafywsh7Q4MtZDzMhK9XT29fKq7gaBagrcoR
+                - listitem [ref=e433]:
+                  - img "林师傅的微醺电台" [ref=e434]
+              - generic [ref=e435]:
+                - link "林师傅的微醺电台" [ref=e436] [cursor=pointer]:
+                  - /url: //www.douyin.com/user/MS4wLjABAAAA-q8kSBjLBgHqWzn-p0sDtgKU6Y4GAafywsh7Q4MtZDzMhK9XT29fKq7gaBagrcoR
+                  - generic [ref=e442]: 林师傅的微醺电台
+                - paragraph [ref=e443]: 粉丝2253获赞2.8万
+              - button "关注" [ref=e445] [cursor=pointer]:
+                - generic [ref=e446]: 关注
+            - generic [ref=e448]:
+              - heading "推荐视频" [level=2] [ref=e450]
+              - list
+              - img [ref=e453]
+              - img [ref=e464]
+              - img [ref=e475]
+              - img [ref=e486]
+              - img [ref=e497]
+              - img [ref=e508]
+        - contentinfo [ref=e519]:
+          - generic [ref=e520]:
+            - generic [ref=e521]:
+              - link "广告投放" [ref=e523] [cursor=pointer]:
+                - /url: https://www.oceanengine.com/resource/douyin
+              - link "用户服务协议" [ref=e525] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - link "隐私政策" [ref=e527] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477
+              - link "账号找回" [ref=e529] [cursor=pointer]:
+                - /url: https://www.douyin.com/recovery_account/
+              - link "联系我们" [ref=e531] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "加入我们" [ref=e533] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "营业执照" [ref=e535] [cursor=pointer]:
+                - /url: https://www.douyin.com/business_license/
+              - link "友情链接" [ref=e537] [cursor=pointer]:
+                - /url: https://www.douyin.com/friend_links
+              - link "站点地图" [ref=e539] [cursor=pointer]:
+                - /url: https://www.douyin.com/htmlmap/hotauthor_0_1
+              - link "下载抖音" [ref=e541] [cursor=pointer]:
+                - /url: https://www.douyin.com/downloadpage/pc
+              - link "抖音电商" [ref=e543] [cursor=pointer]:
+                - /url: https://mix.jinritemai.com/falcon/mix_page/index.html
+            - generic [ref=e544]:
+              - link "网络谣言曝光台 ｜" [ref=e546] [cursor=pointer]:
+                - /url: https://www.piyao.org.cn/yybgt/index.htm
+              - link "网上有害信息举报" [ref=e548] [cursor=pointer]:
+                - /url: https://www.12377.cn/
+              - generic [ref=e549]: ｜ 违法和不良信息举报：400-140-2108 ｜ 算法推荐专项举报：sfjubao@bytedance.com ｜ 网络内容从业人员违法违规行为举报：feedback@douyin.com | 体育饭圈专项举报：tyfq@bytedance.com
+            - generic [ref=e550]:
+              - link "京ICP备16016397号-3" [ref=e552] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/
+              - link "｜ 广播电视节目制作经营许可证" [ref=e554] [cursor=pointer]:
+                - /url: https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/jiemuzhizuojingying.jpg
+              - link "｜ 京B2-20170846" [ref=e556] [cursor=pointer]:
+                - /url: https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/zengzhixuke.jpg
+              - link "｜ 网络文化许可证-京网文-（2025）0181-061号 ｜" [ref=e558] [cursor=pointer]:
+                - /url: https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/20250519-201253.jpeg
+              - generic [ref=e559]:
+                - img "icon" [ref=e560]
+                - link "京公网安备 11000002002046号" [ref=e561] [cursor=pointer]:
+                  - /url: http://www.beian.gov.cn/portal/registerSystemInfo
+              - generic [ref=e562]: ｜ 互联网宗教信息服务许可证 京（2025）0000017
+            - generic [ref=e563]:
+              - generic [ref=e565]: 热门：
+              - link "抖音二次元" [ref=e567] [cursor=pointer]:
+                - /url: https://www.douyin.com/jingxuan/acg
+              - link "抖音精选" [ref=e569] [cursor=pointer]:
+                - /url: https://www.douyin.com/jingxuan
+              - link "渠成" [ref=e571] [cursor=pointer]:
+                - /url: https://www.douyin.com/user/MS4wLjABAAAAB2ThvKIVArfvm8fBM1yoK2voMx2AT0lL_U2Y0a41zBU
+              - 'link "I can''t help it. 我忍不住了 #英语口语 #日常英语 #每日学英语 #零基础学英语#实用英语" [ref=e573] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7623203333667689326
+              - link "浙江机电2025预估录取线" [ref=e575] [cursor=pointer]:
+                - /url: https://www.douyin.com/topic/7509890144506480666
+              - link "南京高考物理" [ref=e577] [cursor=pointer]:
+                - /url: https://www.douyin.com/shipin/7509924436288702464
+              - link "内黄考上清华北大的学生" [ref=e579] [cursor=pointer]:
+                - /url: https://www.douyin.com/search/%E5%86%85%E9%BB%84%E8%80%83%E4%B8%8A%E6%B8%85%E5%8D%8E%E5%8C%97%E5%A4%A7%E7%9A%84%E5%AD%A6%E7%94%9F
+              - link "清明假期火车票开始发售" [ref=e581] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7619637124997363173?source=Baiduspider
+              - link "续航测试：iphone14promax这么垃了？连iphone15都打不过？" [ref=e583] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7284173535738744100?source=Baiduspider
+              - 'link "数据透视表到底有多强，能让你的数据分析效率从牛车变高铁#excel技巧 #office办公技巧 #excel办公小技巧 #数据透视表 #玩转office" [ref=e585] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7289723882095906103?source=Baiduspider
+              - 'link "手摇绞盘牵引升降吊机 #高性能实用工具 #绞盘 #手摇绞盘 #一机多用省时省力" [ref=e587] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7575056332051500351?source=Baiduspider-sdc
+              - 'link "无憾超长完整版（队形），一起跳舞那么久了，第一次合作，请多多指教。可惜还有昨晚表演的另一个舞，没有安排人拍摄~~你们有人拍摄了吗？？（高清的那种）#嗨翻全场 #无憾 #舞台无处不在 #舞团队共勉作品" [ref=e589] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7357521888085609778?source=Baiduspider
+              - 'link "谭谈下属当众顶撞我怎么办 #职场 #管理 #下属不服从管理怎么办 #谭谈职场 #谭建军" [ref=e591] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7352533140159696143?source=Baiduspider
+              - link "5.30《残酷月光》，这是目前房子唱得最好听的一首歌，没有之一（个人向）#盛唐密盒#直播录屏分享" [ref=e593] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7238997103505100070?source=Baiduspider-sdc
+  - article [ref=e599]:
+    - img [ref=e601]
+    - generic [ref=e602]:
+      - generic [ref=e603]:
+        - generic [ref=e604]: 登录后免费畅享高清视频
+        - img [ref=e606] [cursor=pointer]
+      - generic [ref=e609]:
+        - generic [ref=e612]:
+          - generic [ref=e614] [cursor=pointer]: 扫码登录
+          - generic [ref=e618]:
+            - generic [ref=e619]:
+              - generic [ref=e620] [cursor=pointer]: 如何扫码
+              - img [ref=e623]
+              - img [ref=e635]
+            - paragraph [ref=e639]:
+              - paragraph [ref=e640]: 打开「抖音APP」点击左上角
+              - img [ref=e641]
+              - paragraph [ref=e647]: 扫一扫
+        - generic [ref=e650]:
+          - generic [ref=e651] [cursor=pointer]:
+            - generic [ref=e652]: 验证码登录
+            - img [ref=e654]
+            - generic [ref=e655]: 密码登录
+          - generic [ref=e659]:
+            - generic [ref=e661]:
+              - combobox "国家/地区" [ref=e664]: "+86"
+              - img [ref=e667]
+              - textbox "请输入手机号" [ref=e668]
+            - generic [ref=e670]:
+              - textbox "请输入验证码" [ref=e672]
+              - generic [ref=e673]: 获取验证码
+            - generic [ref=e676]: 登录
+            - generic "登录即代表同意用户协议和隐私政策" [ref=e678]:
+              - text: 登录即代表同意
+              - link "用户协议" [ref=e679] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - text: 和
+              - link "隐私政策" [ref=e680] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477

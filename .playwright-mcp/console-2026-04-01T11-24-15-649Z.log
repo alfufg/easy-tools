@@ -1,0 +1,21 @@
+[     395ms] [ERROR] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy. @ https://www.douyin.com/search/%E5%98%89%E5%A3%AB%E4%BC%AF?type=video:0
+[     998ms] [LOG] init or use must be first call, cmd: config @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     998ms] [LOG] init or use must be first call, cmd: start @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     998ms] [LOG] init or use must be first call, cmd: config @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     998ms] [LOG] init or use must be first call, cmd: start @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     999ms] [LOG] init or use must be first call, cmd: config @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     999ms] [LOG] init or use must be first call, cmd: start @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     999ms] [LOG] init or use must be first call, cmd: config @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[     999ms] [LOG] init or use must be first call, cmd: start @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[    1271ms] [LOG] init or use must be first call, cmd: start @ https://lf-static.applogcdn.com/obj/applog-sdk-static/log-sdk/collect/5/collect.dy.js:0
+[    1461ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.douyin.com/search/%E5%98%89%E5%A3%AB%E4%BC%AF?type=video:0
+[   11471ms] [LOG] [ Federation Runtime ] Version 18.3.0-canary-587ae49d7-20230720 from @demo/douyin-web of shared singleton module react does not satisfy the requirement of @revenue-wallet-fe/recharge-web which needs ^18.3.1) @ https://lf3-webcast.bytetos.com/obj/webcast-new/recharge_web_vmok/vmok-remote-entry.9a192be8.js:3
+[   11472ms] [LOG] [ Federation Runtime ] Version 18.3.0-canary-587ae49d7-20230720 from @demo/douyin-web of shared singleton module react-dom does not satisfy the requirement of @revenue-wallet-fe/recharge-web which needs ^18.3.1) @ https://lf3-webcast.bytetos.com/obj/webcast-new/recharge_web_vmok/vmok-remote-entry.9a192be8.js:3
+[   11473ms] [WARNING] Cannot assign to read only property 'call' of object '#<Object>' @ https://lf3-webcast.bytetos.com/obj/webcast-new/recharge_web_vmok/static/js/async/__federation_expose_data.783d5811.js:1
+[   11474ms] [LOG] getRechargePackages requestParams {path: /webcast/diamond/, queryParams: Object} @ https://lf3-webcast.bytetos.com/obj/webcast-new/recharge_web_vmok/static/js/async/__federation_expose_data.783d5811.js:1
+[   11664ms] [LOG] [prefetch] packageData [local]:  {packages: Array(7), extra: Object} @ https://lf3-webcast.bytetos.com/obj/webcast-new/recharge_web_vmok/static/js/async/__federation_expose_data.783d5811.js:1
+[   31369ms] [LOG] 选择器: a[href*="/video/"] 匹配数量: 20 @ :13
+[   31370ms] [LOG] 选择器: a[href*="/note/"] 匹配数量: 0 @ :13
+[   31370ms] [LOG] 选择器: [class*="video-item"] a 匹配数量: 0 @ :13
+[   31370ms] [LOG] 选择器: [class*="VideoItem"] a 匹配数量: 0 @ :13
+[   31370ms] [LOG] 选择器: [class*="search-result"] a[href*="/video/"] 匹配数量: 20 @ :13

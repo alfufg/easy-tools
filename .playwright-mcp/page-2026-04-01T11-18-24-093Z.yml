@@ -1,0 +1,475 @@
+- generic [active] [ref=e1]:
+  - button "开启读屏标签" [ref=e360]
+  - generic: 读屏标签已关闭
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: //www.douyin.com/jingxuan
+      - generic [ref=e12]:
+        - generic [ref=e14]:
+          - link "精选" [ref=e18] [cursor=pointer]:
+            - /url: https://www.douyin.com/jingxuan?from_nav=1
+            - generic [ref=e21]: 精选
+          - link "推荐" [ref=e25] [cursor=pointer]:
+            - /url: https://www.douyin.com/?recommend=1&from_nav=1
+            - generic [ref=e28]: 推荐
+          - link "搜索" [ref=e32] [cursor=pointer]:
+            - /url: https://www.douyin.com/aisearch?from_nav=1
+            - generic [ref=e35]: 搜索
+          - link "关注" [ref=e39] [cursor=pointer]:
+            - /url: https://www.douyin.com/follow?from_nav=1
+            - generic [ref=e42]: 关注
+          - link "朋友" [ref=e46] [cursor=pointer]:
+            - /url: https://www.douyin.com/friend?from_nav=1
+            - generic [ref=e49]: 朋友
+          - link "我的" [ref=e53] [cursor=pointer]:
+            - /url: https://www.douyin.com/user/self?from_nav=1
+            - generic [ref=e56]: 我的
+          - link "直播" [ref=e61] [cursor=pointer]:
+            - /url: https://live.douyin.com/?from_nav=1
+            - generic [ref=e64]: 直播
+          - link "放映厅" [ref=e68] [cursor=pointer]:
+            - /url: https://www.douyin.com/vs?from_nav=1
+            - generic [ref=e71]: 放映厅
+          - link "短剧" [ref=e75] [cursor=pointer]:
+            - /url: https://www.douyin.com/series?from_nav=1
+            - generic [ref=e78]: 短剧
+        - generic [ref=e80]:
+          - img [ref=e83] [cursor=pointer]
+          - img [ref=e87] [cursor=pointer]
+          - img [ref=e91] [cursor=pointer]
+          - img [ref=e362] [cursor=pointer]:
+            - img [ref=e363]
+    - generic [ref=e93]:
+      - banner [ref=e97]:
+        - generic [ref=e99]:
+          - generic [ref=e103]:
+            - textbox "搜索你感兴趣的内容" [ref=e105]: 嘉士伯
+            - button "搜索" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - generic [ref=e110]: 搜索
+          - generic [ref=e365]:
+            - generic [ref=e370] [cursor=pointer]:
+              - img [ref=e372]:
+                - img [ref=e373]
+              - paragraph [ref=e375]: 充钻石
+            - link "客户端" [ref=e380] [cursor=pointer]:
+              - /url: https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/325923913/7.5.1/darwin-universal/douyin-v7.5.1-darwin-universal.dmg
+              - generic [ref=e381]:
+                - generic [ref=e382]:
+                  - img [ref=e384]:
+                    - img [ref=e385]
+                  - paragraph [ref=e388]: 客户端
+                - img [ref=e390]
+            - generic [ref=e396] [cursor=pointer]:
+              - img [ref=e398]:
+                - img [ref=e399]
+              - generic [ref=e401]: 壁纸
+            - list [ref=e402]:
+              - generic [ref=e406] [cursor=pointer]:
+                - img [ref=e408]:
+                  - img [ref=e409]
+                - paragraph [ref=e412]: 通知
+            - list [ref=e413]:
+              - generic [ref=e417] [cursor=pointer]:
+                - img [ref=e419]:
+                  - img [ref=e420]
+                - paragraph [ref=e424]: 私信
+            - generic [ref=e428] [cursor=pointer]:
+              - img [ref=e430]:
+                - img [ref=e431]
+              - paragraph [ref=e433]: 投稿
+            - button "登录" [ref=e437] [cursor=pointer]:
+              - generic [ref=e438]:
+                - img [ref=e439]
+                - paragraph [ref=e442]: 登录
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e186]:
+            - generic [ref=e187] [cursor=pointer]: 综合
+            - generic [ref=e188] [cursor=pointer]: 视频
+            - generic [ref=e189] [cursor=pointer]: 用户
+            - generic [ref=e190] [cursor=pointer]: 直播
+            - generic [ref=e192] [cursor=pointer]:
+              - text: 筛选
+              - img [ref=e193]
+          - list [ref=e197]:
+            - listitem [ref=e443]:
+              - 'link "03:31 44 激斗！嘉士伯皮尔森VS嘉士伯VS喜力 #山姆 #精酿啤酒#啤酒爱好者#随时随地标记一下#真实生活分享计划 @林师傅的微醺电台 3月前" [ref=e445] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7584011665516072232
+                - generic [ref=e446]:
+                  - generic [ref=e448]:
+                    - img [ref=e452]
+                    - generic [ref=e455]:
+                      - generic [ref=e456]: 03:31
+                      - generic [ref=e457]:
+                        - img [ref=e458]
+                        - generic [ref=e460]: "44"
+                  - generic [ref=e462]:
+                    - generic [ref=e463]: "激斗！嘉士伯皮尔森VS嘉士伯VS喜力 #山姆 #精酿啤酒#啤酒爱好者#随时随地标记一下#真实生活分享计划"
+                    - generic [ref=e464]:
+                      - generic [ref=e465]: "@林师傅的微醺电台"
+                      - generic [ref=e466]: 3月前
+            - listitem [ref=e467]:
+              - link "02:55 5077 嘉士伯，对得起重庆？！#重庆 @媒人观城 5月前" [ref=e469] [cursor=pointer]:
+                - /url: //www.douyin.com/video/7559211089981590844
+                - generic [ref=e470]:
+                  - generic [ref=e472]:
+                    - img [ref=e476]
+                    - generic [ref=e479]:
+                      - generic [ref=e480]: 02:55
+                      - generic [ref=e481]:
+                        - img [ref=e482]
+                        - generic [ref=e484]: "5077"
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: 嘉士伯，对得起重庆？！#重庆
+                    - generic [ref=e488]:
+                      - generic [ref=e489]: "@媒人观城"
+                      - generic [ref=e490]: 5月前
+            - listitem [ref=e491]:
+              - 'link "合集 02:07 91 突然发现原来嘉士伯还有这优势 嘉士伯的广告语叫作“可能是世界上最好喝的啤酒”我发现他跟辣东西非常般配，酒友们觉得这款啤酒怎么样？#嘉士伯 #啤酒测评 #拉格啤酒 #vlog十亿流量扶持计划 #种草激励计划 @小D的酒食生活 5月前" [ref=e493] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7558401790534749455
+                - generic [ref=e494]:
+                  - generic [ref=e496]:
+                    - img [ref=e500]
+                    - generic [ref=e503]:
+                      - generic [ref=e505]:
+                        - img [ref=e506]
+                        - generic [ref=e510]: 合集
+                      - generic [ref=e511]: 02:07
+                      - generic [ref=e512]:
+                        - img [ref=e513]
+                        - generic [ref=e515]: "91"
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: "突然发现原来嘉士伯还有这优势 嘉士伯的广告语叫作“可能是世界上最好喝的啤酒”我发现他跟辣东西非常般配，酒友们觉得这款啤酒怎么样？#嘉士伯 #啤酒测评 #拉格啤酒 #vlog十亿流量扶持计划 #种草激励计划"
+                    - generic [ref=e519]:
+                      - generic [ref=e520]: "@小D的酒食生活"
+                      - generic [ref=e521]: 5月前
+            - listitem [ref=e522]:
+              - 'link "04:47 233 又舒服了，心心念念的醉虾➕嘉士伯皮尔森，太香了#嘉士伯皮尔森 #深夜的酒 #晚酌时光 #酒杯托底快乐无比 @辛一恒 5天前" [ref=e524] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7621600016813067558
+                - generic [ref=e525]:
+                  - generic [ref=e527]:
+                    - img [ref=e531]
+                    - generic [ref=e534]:
+                      - generic [ref=e535]: 04:47
+                      - generic [ref=e536]:
+                        - img [ref=e537]
+                        - generic [ref=e539]: "233"
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: "又舒服了，心心念念的醉虾➕嘉士伯皮尔森，太香了#嘉士伯皮尔森 #深夜的酒 #晚酌时光 #酒杯托底快乐无比"
+                    - generic [ref=e543]:
+                      - generic [ref=e544]: "@辛一恒"
+                      - generic [ref=e545]: 5天前
+            - listitem [ref=e546]:
+              - 'link "04:22 3.4万 大师级体验！嘉士伯x黑珍珠餐厅的晚宴来了！ @嘉士伯啤酒 #懂追求就喝嘉士伯 #新启冬味心享知味 @哇塞几张 4月前" [ref=e548] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7575848754855700730
+                - generic [ref=e549]:
+                  - generic [ref=e551]:
+                    - img [ref=e555]
+                    - generic [ref=e558]:
+                      - generic [ref=e559]: 04:22
+                      - generic [ref=e560]:
+                        - img [ref=e561]
+                        - generic [ref=e563]: 3.4万
+                  - generic [ref=e565]:
+                    - generic [ref=e566]: "大师级体验！嘉士伯x黑珍珠餐厅的晚宴来了！ @嘉士伯啤酒 #懂追求就喝嘉士伯 #新启冬味心享知味"
+                    - generic [ref=e567]:
+                      - generic [ref=e568]: "@哇塞几张"
+                      - generic [ref=e569]: 4月前
+            - listitem [ref=e570]:
+              - 'link "00:33 2376 这里是亚洲最大的嘉士伯啤酒研发中心，坐落于佛山三水，占地面积250亩#生产基地 #嘉士伯啤酒 @莘薏爱游玩 8月前" [ref=e572] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7527311019074505993
+                - generic [ref=e573]:
+                  - generic [ref=e575]:
+                    - img [ref=e579]
+                    - generic [ref=e582]:
+                      - generic [ref=e583]: 00:33
+                      - generic [ref=e584]:
+                        - img [ref=e585]
+                        - generic [ref=e587]: "2376"
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: "这里是亚洲最大的嘉士伯啤酒研发中心，坐落于佛山三水，占地面积250亩#生产基地 #嘉士伯啤酒"
+                    - generic [ref=e591]:
+                      - generic [ref=e592]: "@莘薏爱游玩"
+                      - generic [ref=e593]: 8月前
+            - listitem [ref=e594]:
+              - 'link "00:30 1.4万 #懂追求就喝嘉士伯和@黃宗澤 Bosco Wong举杯高品质的嘉士伯，开启更好聚餐体验#嘉士伯黄宗泽一起懂追求 @嘉士伯啤酒 8月前" [ref=e596] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7525866989928189234
+                - generic [ref=e597]:
+                  - generic [ref=e599]:
+                    - img [ref=e603]
+                    - generic [ref=e606]:
+                      - generic [ref=e607]: 00:30
+                      - generic [ref=e608]:
+                        - img [ref=e609]
+                        - generic [ref=e611]: 1.4万
+                  - generic [ref=e613]:
+                    - generic [ref=e614]: "#懂追求就喝嘉士伯和@黃宗澤 Bosco Wong举杯高品质的嘉士伯，开启更好聚餐体验#嘉士伯黄宗泽一起懂追求"
+                    - generic [ref=e615]:
+                      - generic [ref=e616]: "@嘉士伯啤酒"
+                      - generic [ref=e617]: 8月前
+            - listitem [ref=e618]:
+              - 'link "00:37 1 不要再喝工业啤酒了，尝尝高品质的嘉士伯啤酒吧！#嘉士伯 #夏天 #聚会 #微醺时刻 #哎呀妈呀太好喝了 @美少女壮士🔻 2小时前" [ref=e620] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7623705638535182234
+                - generic [ref=e621]:
+                  - generic [ref=e623]:
+                    - img [ref=e627]
+                    - generic [ref=e630]:
+                      - generic [ref=e631]: 00:37
+                      - generic [ref=e632]:
+                        - img [ref=e633]
+                        - generic [ref=e635]: "1"
+                  - generic [ref=e637]:
+                    - generic [ref=e638]: "不要再喝工业啤酒了，尝尝高品质的嘉士伯啤酒吧！#嘉士伯 #夏天 #聚会 #微醺时刻 #哎呀妈呀太好喝了"
+                    - generic [ref=e639]:
+                      - generic [ref=e640]: "@美少女壮士🔻"
+                      - generic [ref=e641]: 2小时前
+            - listitem [ref=e642]:
+              - 'link "03:02 4.3万 体育打工人又累又幸福的三天！遇到很多喜欢的球星 #懂追球就喝嘉士伯 #嘉士伯利物浦一起懂追球 #利物浦香港行 @巢巢巢Even 8月前" [ref=e644] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7533115860672580915
+                - generic [ref=e645]:
+                  - generic [ref=e647]:
+                    - img [ref=e651]
+                    - generic [ref=e654]:
+                      - generic [ref=e655]: 03:02
+                      - generic [ref=e656]:
+                        - img [ref=e657]
+                        - generic [ref=e659]: 4.3万
+                  - generic [ref=e661]:
+                    - generic [ref=e662]: "体育打工人又累又幸福的三天！遇到很多喜欢的球星 #懂追球就喝嘉士伯 #嘉士伯利物浦一起懂追球 #利物浦香港行"
+                    - generic [ref=e663]:
+                      - generic [ref=e664]: "@巢巢巢Even"
+                      - generic [ref=e665]: 8月前
+            - listitem [ref=e666]:
+              - 'link "00:24 16 终于等到了嘉士伯啤酒的大羊毛！夏天快来了还不赶快多囤几箱！#让喝酒的人都富起来 #特醇嘉士伯 #啤酒 #喝点小酒 @美少女壮士🔻 6天前" [ref=e668] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7621227023302158218
+                - generic [ref=e669]:
+                  - generic [ref=e671]:
+                    - img [ref=e675]
+                    - generic [ref=e678]:
+                      - generic [ref=e679]: 00:24
+                      - generic [ref=e680]:
+                        - img [ref=e681]
+                        - generic [ref=e683]: "16"
+                  - generic [ref=e685]:
+                    - generic [ref=e686]: "终于等到了嘉士伯啤酒的大羊毛！夏天快来了还不赶快多囤几箱！#让喝酒的人都富起来 #特醇嘉士伯 #啤酒 #喝点小酒"
+                    - generic [ref=e687]:
+                      - generic [ref=e688]: "@美少女壮士🔻"
+                      - generic [ref=e689]: 6天前
+            - listitem [ref=e690]:
+              - 'link "02:03 7.6万 夏日夜晚，好友相聚，嘉士伯陪你【懂追求】的每一刻！@嘉士伯啤酒@黃宗澤 Bosco Wong #嘉士伯黄宗泽一起懂追求#懂追求就喝嘉士伯#聚餐#波记厨房 @_陈小井 8月前" [ref=e692] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7527224282183716131
+                - generic [ref=e693]:
+                  - generic [ref=e695]:
+                    - img [ref=e699]
+                    - generic [ref=e702]:
+                      - generic [ref=e703]: 02:03
+                      - generic [ref=e704]:
+                        - img [ref=e705]
+                        - generic [ref=e707]: 7.6万
+                  - generic [ref=e709]:
+                    - generic [ref=e710]: "夏日夜晚，好友相聚，嘉士伯陪你【懂追求】的每一刻！@嘉士伯啤酒@黃宗澤 Bosco Wong #嘉士伯黄宗泽一起懂追求#懂追求就喝嘉士伯#聚餐#波记厨房"
+                    - generic [ref=e711]:
+                      - generic [ref=e712]: "@_陈小井"
+                      - generic [ref=e713]: 8月前
+            - listitem [ref=e714]:
+              - 'link "00:46 36 #仓库实拍 #1664啤酒 #嘉士伯啤酒 @林德胜～ 6天前" [ref=e716] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7621415564900964986
+                - generic [ref=e717]:
+                  - generic [ref=e719]:
+                    - img [ref=e723]
+                    - generic [ref=e726]:
+                      - generic [ref=e727]: 00:46
+                      - generic [ref=e728]:
+                        - img [ref=e729]
+                        - generic [ref=e731]: "36"
+                  - generic [ref=e733]:
+                    - generic [ref=e734]: "#仓库实拍 #1664啤酒 #嘉士伯啤酒"
+                    - generic [ref=e735]:
+                      - generic [ref=e736]: "@林德胜～"
+                      - generic [ref=e737]: 6天前
+            - listitem [ref=e738]:
+              - 'link "01:13 47 嘉士伯，风花雪月特酿啤酒，到手一箱才这价， 还有低醇的，超级合适，库存不多，赶紧薅 #嘉士伯 #啤酒#特酿 #风花雪月啤酒#临期食品 @睿心严选🐻 2周前" [ref=e740] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7617810586811177329
+                - generic [ref=e741]:
+                  - generic [ref=e743]:
+                    - img [ref=e747]
+                    - generic [ref=e750]:
+                      - generic [ref=e751]: 01:13
+                      - generic [ref=e752]:
+                        - img [ref=e753]
+                        - generic [ref=e755]: "47"
+                  - generic [ref=e757]:
+                    - generic [ref=e758]: "嘉士伯，风花雪月特酿啤酒，到手一箱才这价， 还有低醇的，超级合适，库存不多，赶紧薅 #嘉士伯 #啤酒#特酿 #风花雪月啤酒#临期食品"
+                    - generic [ref=e759]:
+                      - generic [ref=e760]: "@睿心严选🐻"
+                      - generic [ref=e761]: 2周前
+            - listitem [ref=e762]:
+              - 'link "01:03 63 嘉士伯大品牌的，这价到手1箱足足12罐，巨巨巨划算！库存不多赶紧薅！#嘉士伯 #茶啤 #好喝不贵 #临期食品 #啤酒 @饭饭吃饭饭呀 2周前" [ref=e764] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7618056179901780648
+                - generic [ref=e765]:
+                  - generic [ref=e767]:
+                    - img [ref=e771]
+                    - generic [ref=e774]:
+                      - generic [ref=e775]: 01:03
+                      - generic [ref=e776]:
+                        - img [ref=e777]
+                        - generic [ref=e779]: "63"
+                  - generic [ref=e781]:
+                    - generic [ref=e782]: "嘉士伯大品牌的，这价到手1箱足足12罐，巨巨巨划算！库存不多赶紧薅！#嘉士伯 #茶啤 #好喝不贵 #临期食品 #啤酒"
+                    - generic [ref=e783]:
+                      - generic [ref=e784]: "@饭饭吃饭饭呀"
+                      - generic [ref=e785]: 2周前
+            - listitem [ref=e786]:
+              - link "00:49 211 这个价格到手一箱，真的非常划算！#啤酒#嘉士伯#超便宜超划算#打工人#微醺 @诚子 1周前" [ref=e788] [cursor=pointer]:
+                - /url: //www.douyin.com/video/7618846649292524854
+                - generic [ref=e789]:
+                  - generic [ref=e791]:
+                    - img [ref=e795]
+                    - generic [ref=e798]:
+                      - generic [ref=e799]: 00:49
+                      - generic [ref=e800]:
+                        - img [ref=e801]
+                        - generic [ref=e803]: "211"
+                  - generic [ref=e805]:
+                    - generic [ref=e806]: 这个价格到手一箱，真的非常划算！#啤酒#嘉士伯#超便宜超划算#打工人#微醺
+                    - generic [ref=e807]:
+                      - generic [ref=e808]: "@诚子"
+                      - generic [ref=e809]: 1周前
+            - listitem [ref=e810]:
+              - 'link "01:38 2.6万 轻松复刻的米其林大餐，在家聚餐也要懂追求 #懂追求就喝嘉士伯#波记厨房#好好吃饭#嘉士伯黄宗泽一起懂追求#聚餐@嘉士伯啤酒@黃宗澤 Bosco Wong @二人食记 8月前" [ref=e812] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7525654984868760884
+                - generic [ref=e813]:
+                  - generic [ref=e815]:
+                    - img [ref=e819]
+                    - generic [ref=e822]:
+                      - generic [ref=e823]: 01:38
+                      - generic [ref=e824]:
+                        - img [ref=e825]
+                        - generic [ref=e827]: 2.6万
+                  - generic [ref=e829]:
+                    - generic [ref=e830]: "轻松复刻的米其林大餐，在家聚餐也要懂追求 #懂追求就喝嘉士伯#波记厨房#好好吃饭#嘉士伯黄宗泽一起懂追求#聚餐@嘉士伯啤酒@黃宗澤 Bosco Wong"
+                    - generic [ref=e831]:
+                      - generic [ref=e832]: "@二人食记"
+                      - generic [ref=e833]: 8月前
+            - listitem [ref=e834]:
+              - 'link "合集 00:31 46 别再喝那些工业水啤了，来喝点好啤酒吧#谁懂这一口的好喝程度 #啤酒 #嘉士伯 @小乖懒洋洋 3周前" [ref=e836] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7615954950930535785
+                - generic [ref=e837]:
+                  - generic [ref=e839]:
+                    - img [ref=e843]
+                    - generic [ref=e846]:
+                      - generic [ref=e848]:
+                        - img [ref=e849]
+                        - generic [ref=e853]: 合集
+                      - generic [ref=e854]: 00:31
+                      - generic [ref=e855]:
+                        - img [ref=e856]
+                        - generic [ref=e858]: "46"
+                  - generic [ref=e860]:
+                    - generic [ref=e861]: "别再喝那些工业水啤了，来喝点好啤酒吧#谁懂这一口的好喝程度 #啤酒 #嘉士伯"
+                    - generic [ref=e862]:
+                      - generic [ref=e863]: "@小乖懒洋洋"
+                      - generic [ref=e864]: 3周前
+            - listitem [ref=e865]:
+              - link "01:42 2.9万 夏夜聚餐必备啤酒和海鲜！ @嘉士伯啤酒#嘉士伯黄宗泽一起懂追求#懂追求就喝嘉士伯#波记厨房 @涛饱饱_ 8月前" [ref=e867] [cursor=pointer]:
+                - /url: //www.douyin.com/video/7527887350073019694
+                - generic [ref=e868]:
+                  - generic [ref=e870]:
+                    - img [ref=e874]
+                    - generic [ref=e877]:
+                      - generic [ref=e878]: 01:42
+                      - generic [ref=e879]:
+                        - img [ref=e880]
+                        - generic [ref=e882]: 2.9万
+                  - generic [ref=e884]:
+                    - generic [ref=e885]: 夏夜聚餐必备啤酒和海鲜！ @嘉士伯啤酒#嘉士伯黄宗泽一起懂追求#懂追求就喝嘉士伯#波记厨房
+                    - generic [ref=e886]:
+                      - generic [ref=e887]: "@涛饱饱_"
+                      - generic [ref=e888]: 8月前
+            - listitem [ref=e889]:
+              - 'link "00:40 182 嘉士伯啤酒组合装大羊毛，到手一箱 12 瓶，各种口味都有，真的巨好喝，赶紧薅！#嘉士伯 #1664啤酒 #乌苏啤酒 #啤酒 #好喝不贵 @阳佬板靠谱 5天前" [ref=e891] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7621569296976283642
+                - generic [ref=e892]:
+                  - generic [ref=e894]:
+                    - img [ref=e898]
+                    - generic [ref=e901]:
+                      - generic [ref=e902]: 00:40
+                      - generic [ref=e903]:
+                        - img [ref=e904]
+                        - generic [ref=e906]: "182"
+                  - generic [ref=e908]:
+                    - generic [ref=e909]: "嘉士伯啤酒组合装大羊毛，到手一箱 12 瓶，各种口味都有，真的巨好喝，赶紧薅！#嘉士伯 #1664啤酒 #乌苏啤酒 #啤酒 #好喝不贵"
+                    - generic [ref=e910]:
+                      - generic [ref=e911]: "@阳佬板靠谱"
+                      - generic [ref=e912]: 5天前
+            - listitem [ref=e913]:
+              - 'link "01:24 7118 #嘉士伯黄宗泽一起懂追求 收到老波的聚餐邀请，让我用嘉士伯和这道柠檬啤酒大虾，抓住他的胃#懂追求就喝嘉士伯 @劉佩玥Moon Lau 8月前" [ref=e915] [cursor=pointer]':
+                - /url: //www.douyin.com/video/7526173158203215113
+                - generic [ref=e916]:
+                  - generic [ref=e918]:
+                    - img [ref=e922]
+                    - generic [ref=e925]:
+                      - generic [ref=e926]: 01:24
+                      - generic [ref=e927]:
+                        - img [ref=e928]
+                        - generic [ref=e930]: "7118"
+                  - generic [ref=e932]:
+                    - generic [ref=e933]: "#嘉士伯黄宗泽一起懂追求 收到老波的聚餐邀请，让我用嘉士伯和这道柠檬啤酒大虾，抓住他的胃#懂追求就喝嘉士伯"
+                    - generic [ref=e934]:
+                      - generic [ref=e935]: "@劉佩玥Moon Lau"
+                      - generic [ref=e936]: 8月前
+        - generic [ref=e938]:
+          - paragraph [ref=e939]: 相关搜索
+          - list [ref=e940]:
+            - listitem [ref=e941] [cursor=pointer]:
+              - img [ref=e942]
+              - generic [ref=e945]:
+                - generic [ref=e946]: 嘉士伯
+                - generic [ref=e947]: 文案
+            - listitem [ref=e948] [cursor=pointer]:
+              - img [ref=e949]
+              - generic [ref=e952]:
+                - generic [ref=e953]: 嘉士伯
+                - generic [ref=e954]: 啤酒团购
+            - listitem [ref=e955] [cursor=pointer]:
+              - img [ref=e956]
+              - generic [ref=e959]:
+                - generic [ref=e960]: 嘉士伯
+                - generic [ref=e961]: 330ml
+            - listitem [ref=e962] [cursor=pointer]:
+              - img [ref=e963]
+              - generic [ref=e966]:
+                - generic [ref=e967]: 嘉士伯
+                - generic [ref=e968]: 官方旗舰店
+            - listitem [ref=e969] [cursor=pointer]:
+              - img [ref=e970]
+              - generic [ref=e973]:
+                - generic [ref=e974]: 嘉士伯
+                - generic [ref=e975]: 招聘要求
+            - listitem [ref=e976] [cursor=pointer]:
+              - img [ref=e977]
+              - generic [ref=e980]:
+                - generic [ref=e981]: 嘉士伯
+                - generic [ref=e982]: 特醇500ml
+            - listitem [ref=e983] [cursor=pointer]:
+              - img [ref=e984]
+              - generic [ref=e987]:
+                - generic [ref=e988]: 嘉士伯
+                - generic [ref=e989]: 酒小二
+            - listitem [ref=e990] [cursor=pointer]:
+              - img [ref=e991]
+              - generic [ref=e994]:
+                - generic [ref=e995]: 嘉士伯
+                - generic [ref=e996]: 500ml多少钱
+            - listitem [ref=e997] [cursor=pointer]:
+              - img [ref=e998]
+              - generic [ref=e1001]:
+                - generic [ref=e1002]: 嘉士伯
+                - generic [ref=e1003]: 文案推荐
+            - listitem [ref=e1004] [cursor=pointer]:
+              - img [ref=e1005]
+              - generic [ref=e1008]:
+                - generic [ref=e1009]: 嘉士伯
+                - generic [ref=e1010]: 啤酒

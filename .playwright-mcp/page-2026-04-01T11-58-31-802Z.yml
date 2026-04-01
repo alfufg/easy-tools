@@ -1,0 +1,656 @@
+- generic [active] [ref=e1]:
+  - button "开启读屏标签" [ref=e2]
+  - generic: 读屏标签已关闭
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: //www.douyin.com/jingxuan
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - link "精选" [ref=e19] [cursor=pointer]:
+            - /url: https://www.douyin.com/jingxuan?from_nav=1
+            - generic [ref=e22]: 精选
+          - link "推荐" [ref=e26] [cursor=pointer]:
+            - /url: https://www.douyin.com/?recommend=1&from_nav=1
+            - generic [ref=e29]: 推荐
+          - link "搜索" [ref=e33] [cursor=pointer]:
+            - /url: https://www.douyin.com/aisearch?from_nav=1
+            - generic [ref=e36]: 搜索
+          - link "关注" [ref=e40] [cursor=pointer]:
+            - /url: https://www.douyin.com/follow?from_nav=1
+            - generic [ref=e43]: 关注
+          - link "朋友" [ref=e47] [cursor=pointer]:
+            - /url: https://www.douyin.com/friend?from_nav=1
+            - generic [ref=e50]: 朋友
+          - link "我的" [ref=e54] [cursor=pointer]:
+            - /url: https://www.douyin.com/user/self?from_nav=1
+            - generic [ref=e57]: 我的
+          - link "直播" [ref=e62] [cursor=pointer]:
+            - /url: https://live.douyin.com/?from_nav=1
+            - generic [ref=e65]: 直播
+          - link "放映厅" [ref=e69] [cursor=pointer]:
+            - /url: https://www.douyin.com/vs?from_nav=1
+            - generic [ref=e72]: 放映厅
+          - link "短剧" [ref=e76] [cursor=pointer]:
+            - /url: https://www.douyin.com/series?from_nav=1
+            - generic [ref=e79]: 短剧
+        - generic [ref=e81]:
+          - img [ref=e84] [cursor=pointer]
+          - img [ref=e88] [cursor=pointer]
+          - img [ref=e92] [cursor=pointer]
+          - img [ref=e943] [cursor=pointer]:
+            - img [ref=e944]
+    - generic [ref=e94]:
+      - banner [ref=e97]:
+        - generic [ref=e99]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - generic [ref=e106]: 皮尔森啤酒6.18升多少钱
+              - textbox [ref=e107]
+            - button "搜索" [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+              - generic [ref=e112]: 搜索
+          - generic [ref=e116]:
+            - generic [ref=e121] [cursor=pointer]:
+              - img [ref=e123]:
+                - img [ref=e124]
+              - paragraph [ref=e126]: 充钻石
+            - link "客户端" [ref=e131] [cursor=pointer]:
+              - /url: https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/325923913/7.5.1/darwin-universal/douyin-v7.5.1-darwin-universal.dmg
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - img [ref=e135]:
+                    - img [ref=e136]
+                  - paragraph [ref=e139]: 客户端
+                - img [ref=e141]
+            - generic [ref=e147] [cursor=pointer]:
+              - img [ref=e149]:
+                - img [ref=e150]
+              - generic [ref=e152]: 壁纸
+            - list [ref=e153]:
+              - generic [ref=e157] [cursor=pointer]:
+                - img [ref=e159]:
+                  - img [ref=e160]
+                - paragraph [ref=e163]: 通知
+            - list [ref=e164]:
+              - generic [ref=e168] [cursor=pointer]:
+                - img [ref=e170]:
+                  - img [ref=e171]
+                - paragraph [ref=e175]: 私信
+            - generic [ref=e179] [cursor=pointer]:
+              - img [ref=e181]:
+                - img [ref=e182]
+              - paragraph [ref=e184]: 投稿
+            - button "登录" [ref=e188] [cursor=pointer]:
+              - generic [ref=e189]:
+                - img [ref=e190]
+                - paragraph [ref=e193]: 登录
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - img [ref=e200]
+              - generic [ref=e203]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - img [ref=e209] [cursor=pointer]:
+                      - img [ref=e210]
+                    - generic [ref=e213] [cursor=pointer]:
+                      - generic [ref=e214]: 00:12
+                      - generic [ref=e215]: /
+                      - generic [ref=e216]: 03:31
+                    - img [ref=e220] [cursor=pointer]
+                    - img [ref=e225]:
+                      - img [ref=e226] [cursor=pointer]
+                  - generic [ref=e237]:
+                    - img [ref=e240] [cursor=pointer]:
+                      - img [ref=e241]
+                    - img [ref=e245] [cursor=pointer]
+                    - img [ref=e249] [cursor=pointer]:
+                      - img [ref=e250]
+                    - img [ref=e254] [cursor=pointer]:
+                      - img [ref=e255]
+                    - img [ref=e261] [cursor=pointer]
+                    - generic [ref=e264] [cursor=pointer]: 倍速
+                    - generic [ref=e267] [cursor=pointer]: 智能
+                    - generic [ref=e270] [cursor=pointer]:
+                      - button [ref=e271]
+                      - generic [ref=e272]: 清屏
+                    - generic [ref=e275] [cursor=pointer]:
+                      - button [ref=e276]
+                      - generic [ref=e277]: 连播
+                - generic [ref=e281]:
+                  - img [ref=e283]:
+                    - img [ref=e284]
+                  - img [ref=e288]:
+                    - img [ref=e289]
+                - generic [ref=e292]:
+                  - img [ref=e293]
+                  - img [ref=e294]:
+                    - img [ref=e295]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic [ref=e299]:
+                      - generic [ref=e301]: 章节要点
+                      - img
+                    - generic:
+                      - generic [ref=e303]: 山姆的嘉士伯皮尔森与普通嘉士伯、喜力进行了对比。嘉士伯皮尔森口感偏米香，类似荷兰金刚桶；普通嘉士伯更浓郁，麦香味更重，属于经典拉格；喜力是代表皮尔森风格的啤酒，口感清爽，风味均衡。
+                      - generic:
+                        - generic [ref=e304] [cursor=pointer]:
+                          - generic:
+                            - generic [ref=e308]: 00:03
+                            - generic: 引言
+                        - generic [ref=e309] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e311]
+                            - generic [ref=e313]: 00:34
+                            - generic: 嘉士伯皮尔森
+                          - generic [ref=e314]:
+                            - paragraph: 嘉士伯皮尔森口感偏米香，类似荷兰金刚桶。
+                        - generic [ref=e315] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e317]
+                            - generic [ref=e319]: 00:39
+                            - generic: 普通嘉士伯
+                          - generic [ref=e320]:
+                            - paragraph: 普通嘉士伯更浓郁，麦香味更重，属于经典拉格。
+                        - generic [ref=e321] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e323]
+                            - generic [ref=e325]: 01:17
+                            - generic: 喜力
+                          - generic [ref=e326]:
+                            - paragraph: 喜力是代表皮尔森风格的啤酒，酒精度3.4度，口感清爽，风味均衡。
+                        - generic [ref=e327] [cursor=pointer]:
+                          - generic:
+                            - img [ref=e329]
+                            - generic [ref=e331]: 02:52
+                            - generic: 结论
+                          - generic [ref=e332]:
+                            - paragraph: 山姆嘉士伯皮尔森非标准皮尔森，更像荷兰金刚桶；普通嘉士伯是好喝的拉格；喜力表现均衡，具有皮尔森风味。
+            - generic [ref=e334]:
+              - 'heading "激斗！嘉士伯皮尔森VS嘉士伯VS喜力 #山姆 #精酿啤酒#啤酒爱好者#随时随地标记一下#真实生活分享计划" [level=1] [ref=e337]':
+                - generic [ref=e340]:
+                  - generic [ref=e343]: 激斗！嘉士伯皮尔森VS嘉士伯VS喜力
+                  - link "#山姆" [ref=e345] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E5%B1%B1%E5%A7%86?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#精酿啤酒" [ref=e350] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E7%B2%BE%E9%85%BF%E5%95%A4%E9%85%92?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#啤酒爱好者" [ref=e352] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E5%95%A4%E9%85%92%E7%88%B1%E5%A5%BD%E8%80%85?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#随时随地标记一下" [ref=e354] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E9%9A%8F%E6%97%B6%E9%9A%8F%E5%9C%B0%E6%A0%87%E8%AE%B0%E4%B8%80%E4%B8%8B?enter_from=video_detail&source=pc_click_hashtag_feed
+                  - link "#真实生活分享计划" [ref=e356] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E7%9C%9F%E5%AE%9E%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB%E8%AE%A1%E5%88%92?enter_from=video_detail&source=pc_click_hashtag_feed
+              - generic [ref=e357]:
+                - generic [ref=e358]:
+                  - generic [ref=e359] [cursor=pointer]:
+                    - img [ref=e362]
+                    - generic [ref=e370]: "44"
+                  - generic [ref=e371] [cursor=pointer]:
+                    - img [ref=e374]
+                    - generic [ref=e379]: "7"
+                  - generic [ref=e380] [cursor=pointer]:
+                    - img [ref=e383]
+                    - generic [ref=e392]: "5"
+                  - generic [ref=e393] [cursor=pointer]:
+                    - img [ref=e396]
+                    - generic [ref=e401]: "12"
+                - generic [ref=e402]:
+                  - generic [ref=e403] [cursor=pointer]:
+                    - img [ref=e404]
+                    - generic [ref=e406]: 举报
+                  - generic [ref=e407]: 发布时间：2025-12-15 17:18
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - generic [ref=e413]: 全部评论
+                - generic [ref=e416]:
+                  - img [ref=e419] [cursor=pointer]
+                  - generic [ref=e428] [cursor=pointer]: 请先登录后发表评论
+                - generic [ref=e430]:
+                  - generic [ref=e431]: 大家都在搜：
+                  - link "嘉士伯皮尔森500ml整箱" [ref=e435] [cursor=pointer]:
+                    - /url: //www.douyin.com/search/%E5%98%89%E5%A3%AB%E4%BC%AF%E7%9A%AE%E5%B0%94%E6%A3%AE500ml%E6%95%B4%E7%AE%B1?aweme_id=7584011665516072232&enter_from=video_detail&gid=7584011665516072232&source=comment_related_search
+                    - generic [ref=e436]: 嘉士伯皮尔森500ml整箱
+                    - img [ref=e437]
+              - generic [ref=e439]:
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - link "泡麵头" [ref=e449] [cursor=pointer]:
+                      - /url: //www.douyin.com/user/MS4wLjABAAAAtqAY6KUzrQznbq7KN5wNuXhUL85OArd55Zo7P6wz6NnoqTQzhK3omAbqpPwyT7PH
+                      - generic [ref=e455]: 泡麵头
+                    - generic [ref=e457]: ...
+                  - generic [ref=e464]: 喜力才是性价比天花板 上头也快 喝完第二天也不会难受
+                  - generic [ref=e465]: 3月前·广东
+                  - generic [ref=e467]:
+                    - generic [ref=e468]:
+                      - paragraph [ref=e469] [cursor=pointer]:
+                        - img [ref=e470]
+                        - generic [ref=e472]: "0"
+                      - paragraph [ref=e473] [cursor=pointer]:
+                        - img [ref=e474]
+                    - generic [ref=e477] [cursor=pointer]:
+                      - img [ref=e478]
+                      - generic [ref=e480]: 分享
+                    - generic [ref=e482] [cursor=pointer]:
+                      - img [ref=e483]
+                      - generic [ref=e485]: 回复
+                - generic [ref=e491]:
+                  - generic [ref=e492]:
+                    - link "国境丶以南" [ref=e495] [cursor=pointer]:
+                      - /url: //www.douyin.com/user/MS4wLjABAAAAzYZpDSFqEcvbRNK6heZ0OP0usLucRGdwS37Vc0HwMjU
+                      - generic [ref=e501]: 国境丶以南
+                    - generic [ref=e503]: ...
+                  - generic [ref=e510]: 进口版的嘉士伯皮尔森玻璃瓶，夯爆！
+                  - generic [ref=e511]: 2周前·四川
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - paragraph [ref=e515] [cursor=pointer]:
+                        - img [ref=e516]
+                        - generic [ref=e518]: "0"
+                      - paragraph [ref=e519] [cursor=pointer]:
+                        - img [ref=e520]
+                    - generic [ref=e523] [cursor=pointer]:
+                      - img [ref=e524]
+                      - generic [ref=e526]: 分享
+                    - generic [ref=e528] [cursor=pointer]:
+                      - img [ref=e529]
+                      - generic [ref=e531]: 回复
+                - generic [ref=e537]:
+                  - generic [ref=e538]:
+                    - link "🥰我的世界🌈" [ref=e541] [cursor=pointer]:
+                      - /url: //www.douyin.com/user/MS4wLjABAAAASD7gbHYH6egasOYmHZcD736HVfMENFtqrmmUyPUPRXdL0kZx3b9YIkaz6Eky0F8-
+                      - generic [ref=e548]:
+                        - img "🥰" [ref=e549]
+                        - text: 我的世界
+                        - img "🌈" [ref=e550]
+                    - generic [ref=e552]: ...
+                  - generic [ref=e559]: 你的长发 很蓝妹
+                  - generic [ref=e560]: 1月前·中国香港
+                  - generic [ref=e562]:
+                    - generic [ref=e563]:
+                      - paragraph [ref=e564] [cursor=pointer]:
+                        - img [ref=e565]
+                        - generic [ref=e567]: "0"
+                      - paragraph [ref=e568] [cursor=pointer]:
+                        - img [ref=e569]
+                    - generic [ref=e572] [cursor=pointer]:
+                      - img [ref=e573]
+                      - generic [ref=e575]: 分享
+                    - generic [ref=e577] [cursor=pointer]:
+                      - img [ref=e578]
+                      - generic [ref=e580]: 回复
+                - generic [ref=e586]:
+                  - generic [ref=e587]:
+                    - link "宽容的霖" [ref=e590] [cursor=pointer]:
+                      - /url: //www.douyin.com/user/MS4wLjABAAAA_KbyTNd1sQyIRsZycMpfo7ROv_JbC2aPw6km799fEDUl5BXY7q9Ej3YSamb40G4c
+                      - generic [ref=e596]: 宽容的霖
+                    - generic [ref=e598]: ...
+                  - generic [ref=e605]: 乐堡也是嘉士伯的
+                  - generic [ref=e606]: 3月前·广东
+                  - generic [ref=e608]:
+                    - generic [ref=e609]:
+                      - paragraph [ref=e610] [cursor=pointer]:
+                        - img [ref=e611]
+                        - generic [ref=e613]: "1"
+                      - paragraph [ref=e614] [cursor=pointer]:
+                        - img [ref=e615]
+                    - generic [ref=e618] [cursor=pointer]:
+                      - img [ref=e619]
+                      - generic [ref=e621]: 分享
+                    - generic [ref=e623] [cursor=pointer]:
+                      - img [ref=e624]
+                      - generic [ref=e626]: 回复
+                - generic [ref=e632]:
+                  - generic [ref=e633]:
+                    - link "宽容的霖" [ref=e636] [cursor=pointer]:
+                      - /url: //www.douyin.com/user/MS4wLjABAAAA_KbyTNd1sQyIRsZycMpfo7ROv_JbC2aPw6km799fEDUl5BXY7q9Ej3YSamb40G4c
+                      - generic [ref=e642]: 宽容的霖
+                    - generic [ref=e644]: ...
+                  - generic [ref=e645]:
+                    - generic [ref=e651]:
+                      - text: 感觉不错
+                      - img "[赞]" [ref=e652]
+                    - img [ref=e657]
+                  - generic [ref=e658]: 3月前·广东
+                  - generic [ref=e660]:
+                    - generic [ref=e661]:
+                      - paragraph [ref=e662] [cursor=pointer]:
+                        - img [ref=e663]
+                        - generic [ref=e665]: "0"
+                      - paragraph [ref=e666] [cursor=pointer]:
+                        - img [ref=e667]
+                    - generic [ref=e670] [cursor=pointer]:
+                      - img [ref=e671]
+                      - generic [ref=e673]: 分享
+                    - generic [ref=e675] [cursor=pointer]:
+                      - img [ref=e676]
+                      - generic [ref=e678]: 回复
+                - generic [ref=e679]: 暂时没有更多评论
+                - generic [ref=e680]:
+                  - generic [ref=e681]: 登录后即可参与互动讨论
+                  - button "立即登录" [ref=e683] [cursor=pointer]:
+                    - generic [ref=e684]: 立即登录
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - link "林师傅的微醺电台" [ref=e690] [cursor=pointer]:
+                - /url: //www.douyin.com/user/MS4wLjABAAAA-q8kSBjLBgHqWzn-p0sDtgKU6Y4GAafywsh7Q4MtZDzMhK9XT29fKq7gaBagrcoR
+                - listitem [ref=e691]:
+                  - img "林师傅的微醺电台" [ref=e692]
+              - generic [ref=e693]:
+                - link "林师傅的微醺电台" [ref=e694] [cursor=pointer]:
+                  - /url: //www.douyin.com/user/MS4wLjABAAAA-q8kSBjLBgHqWzn-p0sDtgKU6Y4GAafywsh7Q4MtZDzMhK9XT29fKq7gaBagrcoR
+                  - generic [ref=e700]: 林师傅的微醺电台
+                - paragraph [ref=e701]: 粉丝2253获赞2.8万
+              - button "关注" [ref=e703] [cursor=pointer]:
+                - generic [ref=e704]: 关注
+            - generic [ref=e706]:
+              - heading "推荐视频" [level=2] [ref=e708]
+              - list [ref=e946]:
+                - listitem [ref=e947]:
+                  - generic [ref=e948]:
+                    - 'link "1000块在世界上物价最贵和最便宜的城市分别能买到什么？ #青年创作者扶持计划 #vlog十亿流量扶持计划 #真实生活分享计划 #社恐呆里克 06:47" [ref=e950] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7611226389173341466
+                      - 'img "1000块在世界上物价最贵和最便宜的城市分别能买到什么？ #青年创作者扶持计划 #vlog十亿流量扶持计划 #真实生活分享计划 #社恐呆里克" [ref=e954]'
+                      - generic [ref=e956]: 06:47
+                    - generic [ref=e957]:
+                      - 'heading "1000块在世界上物价最贵和最便宜的城市分别能买到什么？ #青年创作者扶持计划 #vlog十亿流量扶持计划 #真实生活分享计划 #社恐呆里克" [level=3] [ref=e958]':
+                        - 'link "1000块在世界上物价最贵和最便宜的城市分别能买到什么？ #青年创作者扶持计划 #vlog十亿流量扶持计划 #真实生活分享计划 #社恐呆里克" [ref=e959] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7611226389173341466
+                          - generic [ref=e964]: "1000块在世界上物价最贵和最便宜的城市分别能买到什么？ #青年创作者扶持计划 #vlog十亿流量扶持计划 #真实生活分享计划 #社恐呆里克"
+                      - generic [ref=e965]:
+                        - generic [ref=e966]:
+                          - img [ref=e967]
+                          - text: 76.5万
+                        - link "社恐呆里克" [ref=e970] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAQfPiU0ly7ONS_lg0HXyvX7H2YlwC5qFJqXidR_oIgPKAhJ1iiszrW4H47IKUE9Aq?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e975]: 社恐呆里克
+                - listitem [ref=e976]:
+                  - generic [ref=e977]:
+                    - 'link "倒出一杯沒有泡沫的啤酒#一般人不告诉他 #行业大揭秘 #啤酒 #歪果仁系列 #助手上热门 00:19" [ref=e979] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7601856537052782299
+                      - 'img "倒出一杯沒有泡沫的啤酒#一般人不告诉他 #行业大揭秘 #啤酒 #歪果仁系列 #助手上热门" [ref=e983]'
+                      - generic [ref=e985]: 00:19
+                    - generic [ref=e986]:
+                      - 'heading "倒出一杯沒有泡沫的啤酒#一般人不告诉他 #行业大揭秘 #啤酒 #歪果仁系列 #助手上热门" [level=3] [ref=e987]':
+                        - 'link "倒出一杯沒有泡沫的啤酒#一般人不告诉他 #行业大揭秘 #啤酒 #歪果仁系列 #助手上热门" [ref=e988] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7601856537052782299
+                          - generic [ref=e993]: "倒出一杯沒有泡沫的啤酒#一般人不告诉他 #行业大揭秘 #啤酒 #歪果仁系列 #助手上热门"
+                      - generic [ref=e994]:
+                        - generic [ref=e995]:
+                          - img [ref=e996]
+                          - text: "1055"
+                        - link "海外生活笔记" [ref=e999] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAA2g3ftOXdkC1IWvmsvTmGYQevVmM5nFYx3qAxAH3hYiDVgzyTfjVJFcV6jNMemADR?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1004]: 海外生活笔记
+                - listitem [ref=e1005]:
+                  - generic [ref=e1006]:
+                    - 'link "网上那些号称自家酿的酒到底能不能喝？ #酒 #白酒 #自家酿的酒没什么度数 #口粮酒 #桶装酒 12:40" [ref=e1008] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7590650203309444403
+                      - 'img "网上那些号称自家酿的酒到底能不能喝？ #酒 #白酒 #自家酿的酒没什么度数 #口粮酒 #桶装酒" [ref=e1012]'
+                      - generic [ref=e1014]: 12:40
+                    - generic [ref=e1015]:
+                      - 'heading "网上那些号称自家酿的酒到底能不能喝？ #酒 #白酒 #自家酿的酒没什么度数 #口粮酒 #桶装酒" [level=3] [ref=e1016]':
+                        - 'link "网上那些号称自家酿的酒到底能不能喝？ #酒 #白酒 #自家酿的酒没什么度数 #口粮酒 #桶装酒" [ref=e1017] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7590650203309444403
+                          - generic [ref=e1022]: "网上那些号称自家酿的酒到底能不能喝？ #酒 #白酒 #自家酿的酒没什么度数 #口粮酒 #桶装酒"
+                      - generic [ref=e1023]:
+                        - generic [ref=e1024]:
+                          - img [ref=e1025]
+                          - text: 9.4万
+                        - link "一百八一杯" [ref=e1028] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAbmPi7D_jA3RTRXdvcraKs7o6R7iKW6L892ZB8iX91yUKv6hjhLPI_z8Hcr_1LPN_?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1033]: 一百八一杯
+                - listitem [ref=e1034]:
+                  - generic [ref=e1035]:
+                    - link "这十几种酒你买的起吗，哪个好喝呢？#白酒 01:00" [ref=e1037] [cursor=pointer]:
+                      - /url: //www.douyin.com/video/7623394706085007354
+                      - img "这十几种酒你买的起吗，哪个好喝呢？#白酒" [ref=e1041]
+                      - generic [ref=e1043]: 01:00
+                    - generic [ref=e1044]:
+                      - heading "这十几种酒你买的起吗，哪个好喝呢？#白酒" [level=3] [ref=e1045]:
+                        - link "这十几种酒你买的起吗，哪个好喝呢？#白酒" [ref=e1046] [cursor=pointer]:
+                          - /url: //www.douyin.com/video/7623394706085007354
+                          - generic [ref=e1051]: 这十几种酒你买的起吗，哪个好喝呢？#白酒
+                      - generic [ref=e1052]:
+                        - generic [ref=e1053]:
+                          - img [ref=e1054]
+                          - text: "5265"
+                        - link "有氧科普" [ref=e1057] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAaZgqhmZhO7a-WEljqkp2kHjk_XKq5gMxxROlKPVbv0E?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1062]: 有氧科普
+                - listitem [ref=e1063]:
+                  - generic [ref=e1064]:
+                    - 'link "德伦堡有机会开小汽车🚗 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车 00:41" [ref=e1066] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7595056711887917903
+                      - 'img "德伦堡有机会开小汽车🚗 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车" [ref=e1070]'
+                      - generic [ref=e1072]: 00:41
+                    - generic [ref=e1073]:
+                      - 'heading "德伦堡有机会开小汽车🚗 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车" [level=3] [ref=e1074]':
+                        - 'link "德伦堡有机会开小汽车🚗 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车" [ref=e1075] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7595056711887917903
+                          - generic [ref=e1081]:
+                            - text: 德伦堡有机会开小汽车
+                            - img "🚗" [ref=e1082]
+                            - text: "#德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车"
+                      - generic [ref=e1083]:
+                        - generic [ref=e1084]:
+                          - img [ref=e1085]
+                          - text: "1691"
+                        - link "笔行食天下" [ref=e1088] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAAgYwFipWnyHm3uErrW--0Wd0CTdVFcw3olxaKVqHgdu0gy5LIe10V8D_EprN8lls7?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1093]: 笔行食天下
+                - listitem [ref=e1094]:
+                  - generic [ref=e1095]:
+                    - 'link "喝白兰地你在哪个等级？ #轩尼诗vsop #酒蒙子的日常 #白兰地 #干邑 #喝酒 00:19" [ref=e1097] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7602924727920807194
+                      - 'img "喝白兰地你在哪个等级？ #轩尼诗vsop #酒蒙子的日常 #白兰地 #干邑 #喝酒" [ref=e1101]'
+                      - generic [ref=e1103]: 00:19
+                    - generic [ref=e1104]:
+                      - 'heading "喝白兰地你在哪个等级？ #轩尼诗vsop #酒蒙子的日常 #白兰地 #干邑 #喝酒" [level=3] [ref=e1105]':
+                        - 'link "喝白兰地你在哪个等级？ #轩尼诗vsop #酒蒙子的日常 #白兰地 #干邑 #喝酒" [ref=e1106] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7602924727920807194
+                          - generic [ref=e1111]: "喝白兰地你在哪个等级？ #轩尼诗vsop #酒蒙子的日常 #白兰地 #干邑 #喝酒"
+                      - generic [ref=e1112]:
+                        - generic [ref=e1113]:
+                          - img [ref=e1114]
+                          - text: "713"
+                        - link "小诗邑" [ref=e1117] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAA6gYwqFnQHzpD9XR8noUWqiF9XZ8NVqHK1iwHBv-vnuCxASSdUd0J75Ixe1TeQe9o?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1122]: 小诗邑
+                - listitem [ref=e1123]:
+                  - generic [ref=e1124]:
+                    - 'link "劲酒直接喝，不如去倒掉 #调酒 #劲酒 #喝酒 #酒蒙子的日常 00:29" [ref=e1126] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7605914168977411364
+                      - 'img "劲酒直接喝，不如去倒掉 #调酒 #劲酒 #喝酒 #酒蒙子的日常" [ref=e1130]'
+                      - generic [ref=e1132]: 00:29
+                    - generic [ref=e1133]:
+                      - 'heading "劲酒直接喝，不如去倒掉 #调酒 #劲酒 #喝酒 #酒蒙子的日常" [level=3] [ref=e1134]':
+                        - 'link "劲酒直接喝，不如去倒掉 #调酒 #劲酒 #喝酒 #酒蒙子的日常" [ref=e1135] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7605914168977411364
+                          - generic [ref=e1140]: "劲酒直接喝，不如去倒掉 #调酒 #劲酒 #喝酒 #酒蒙子的日常"
+                      - generic [ref=e1141]:
+                        - generic [ref=e1142]:
+                          - img [ref=e1143]
+                          - text: 1.1万
+                        - link "酒叔尝百酒" [ref=e1146] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAA3cxsj82mITIcushtRqOfDU7hWT8nvRM0IaiJuGl7RYg?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1151]: 酒叔尝百酒
+                - listitem [ref=e1152]:
+                  - generic [ref=e1153]:
+                    - 'link "超市里的啤酒该如何选择？ #啤酒#白酒 00:28" [ref=e1155] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7618092610738404090
+                      - 'img "超市里的啤酒该如何选择？ #啤酒#白酒" [ref=e1159]'
+                      - generic [ref=e1161]: 00:28
+                    - generic [ref=e1162]:
+                      - 'heading "超市里的啤酒该如何选择？ #啤酒#白酒" [level=3] [ref=e1163]':
+                        - 'link "超市里的啤酒该如何选择？ #啤酒#白酒" [ref=e1164] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7618092610738404090
+                          - generic [ref=e1169]: "超市里的啤酒该如何选择？ #啤酒#白酒"
+                      - generic [ref=e1170]:
+                        - generic [ref=e1171]:
+                          - img [ref=e1172]
+                          - text: "2347"
+                        - link "鱼丸丸" [ref=e1175] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAA9RJO9DSqUhdnH86KI7k24EIGj7ohc_IMaHnRhf_-7QU?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1180]: 鱼丸丸
+                - listitem [ref=e1181]:
+                  - generic [ref=e1182]:
+                    - 'link "这期就光念念配料表 #精酿啤酒 #配料表 #麦克雷 #吞山skyhigh 00:44" [ref=e1184] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7602180570180881673
+                      - 'img "这期就光念念配料表 #精酿啤酒 #配料表 #麦克雷 #吞山skyhigh" [ref=e1188]'
+                      - generic [ref=e1190]: 00:44
+                    - generic [ref=e1191]:
+                      - 'heading "这期就光念念配料表 #精酿啤酒 #配料表 #麦克雷 #吞山skyhigh" [level=3] [ref=e1192]':
+                        - 'link "这期就光念念配料表 #精酿啤酒 #配料表 #麦克雷 #吞山skyhigh" [ref=e1193] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7602180570180881673
+                          - generic [ref=e1196]:
+                            - generic [ref=e1198]: 这期就光念念配料表
+                            - generic [ref=e1200]: "#精酿啤酒 #配料表 #麦克雷 #吞山skyhigh"
+                      - generic [ref=e1201]:
+                        - generic [ref=e1202]:
+                          - img [ref=e1203]
+                          - text: "3675"
+                        - link "吞山老赵胡喝八道" [ref=e1206] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAABYuUQJEqLEZediqFaVWkCnbG5KFImD1wvKBedEJ-jJfKqaMYZprUj2Ng-nRBw94g?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1211]: 吞山老赵胡喝八道
+                - listitem [ref=e1212]:
+                  - generic [ref=e1213]:
+                    - 'link "现在就喝这个 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车 00:37" [ref=e1215] [cursor=pointer]':
+                      - /url: //www.douyin.com/video/7595057490938941119
+                      - 'img "现在就喝这个 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车" [ref=e1219]'
+                      - generic [ref=e1221]: 00:37
+                    - generic [ref=e1222]:
+                      - 'heading "现在就喝这个 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车" [level=3] [ref=e1223]':
+                        - 'link "现在就喝这个 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车" [ref=e1224] [cursor=pointer]':
+                          - /url: //www.douyin.com/video/7595057490938941119
+                          - generic [ref=e1229]: "现在就喝这个 #德伦堡 #德伦堡精酿啤酒 #精酿啤酒 #新年送礼就选德伦堡 #过年喝德伦堡抽100辆汽车"
+                      - generic [ref=e1230]:
+                        - generic [ref=e1231]:
+                          - img [ref=e1232]
+                          - text: "2315"
+                        - link "盛京大彭彭🍣🍺🏂🤪" [ref=e1235] [cursor=pointer]:
+                          - /url: //www.douyin.com/user/MS4wLjABAAAALrZ_Eaga6P7-aiX0rFGpYk9P4TqoCPm2xXrI7rjD0j8?author_id=3522489034998878&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7584011665516072232&log_pb=%7B%22impr_id%22%3A%2220260401195818B0A7A1974B18833B4376%22%7D&relation=0
+                          - generic [ref=e1241]:
+                            - text: 盛京大彭彭
+                            - img "🍣" [ref=e1242]
+                            - img "🍺" [ref=e1243]
+                            - img "🏂" [ref=e1244]
+                            - img "🤪" [ref=e1245]
+        - contentinfo [ref=e777]:
+          - generic [ref=e778]:
+            - generic [ref=e779]:
+              - link "广告投放" [ref=e781] [cursor=pointer]:
+                - /url: https://www.oceanengine.com/resource/douyin
+              - link "用户服务协议" [ref=e783] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - link "隐私政策" [ref=e785] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477
+              - link "账号找回" [ref=e787] [cursor=pointer]:
+                - /url: https://www.douyin.com/recovery_account/
+              - link "联系我们" [ref=e789] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "加入我们" [ref=e791] [cursor=pointer]:
+                - /url: https://www.douyin.com/aboutus/
+              - link "营业执照" [ref=e793] [cursor=pointer]:
+                - /url: https://www.douyin.com/business_license/
+              - link "友情链接" [ref=e795] [cursor=pointer]:
+                - /url: https://www.douyin.com/friend_links
+              - link "站点地图" [ref=e797] [cursor=pointer]:
+                - /url: https://www.douyin.com/htmlmap/hotauthor_0_1
+              - link "下载抖音" [ref=e799] [cursor=pointer]:
+                - /url: https://www.douyin.com/downloadpage/pc
+              - link "抖音电商" [ref=e801] [cursor=pointer]:
+                - /url: https://mix.jinritemai.com/falcon/mix_page/index.html
+            - generic [ref=e802]:
+              - link "网络谣言曝光台 ｜" [ref=e804] [cursor=pointer]:
+                - /url: https://www.piyao.org.cn/yybgt/index.htm
+              - link "网上有害信息举报" [ref=e806] [cursor=pointer]:
+                - /url: https://www.12377.cn/
+              - generic [ref=e807]: ｜ 违法和不良信息举报：400-140-2108 ｜ 算法推荐专项举报：sfjubao@bytedance.com ｜ 网络内容从业人员违法违规行为举报：feedback@douyin.com | 体育饭圈专项举报：tyfq@bytedance.com
+            - generic [ref=e808]:
+              - link "京ICP备16016397号-3" [ref=e810] [cursor=pointer]:
+                - /url: https://beian.miit.gov.cn/
+              - link "｜ 广播电视节目制作经营许可证" [ref=e812] [cursor=pointer]:
+                - /url: https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/jiemuzhizuojingying.jpg
+              - link "｜ 京B2-20170846" [ref=e814] [cursor=pointer]:
+                - /url: https://lf3-static.bytednsdoc.com/obj/eden-cn/ild_jw_upfbvk_lm/ljhwZthlaukjlkulzlp/license/zengzhixuke.jpg
+              - link "｜ 网络文化许可证-京网文-（2025）0181-061号 ｜" [ref=e816] [cursor=pointer]:
+                - /url: https://lf-douyin-pc-web.douyinstatic.com/obj/douyin-pc-web/20250519-201253.jpeg
+              - generic [ref=e817]:
+                - img "icon" [ref=e818]
+                - link "京公网安备 11000002002046号" [ref=e819] [cursor=pointer]:
+                  - /url: http://www.beian.gov.cn/portal/registerSystemInfo
+              - generic [ref=e820]: ｜ 互联网宗教信息服务许可证 京（2025）0000017
+            - generic [ref=e821]:
+              - generic [ref=e823]: 热门：
+              - link "抖音知识" [ref=e825] [cursor=pointer]:
+                - /url: https://www.douyin.com/jingxuan/knowledge
+              - link "游戏视频推荐" [ref=e827] [cursor=pointer]:
+                - /url: https://www.douyin.com/jingxuan/game
+              - link "潍坊吾悦广场" [ref=e829] [cursor=pointer]:
+                - /url: https://www.douyin.com/user/MS4wLjABAAAANeDEcl_IBvgUu_gOA86s7YihtSFV6x4Sd3mxhSXdBn8
+              - 'link "初中英语完形填空八大答题技巧口诀梳理 ！#初中英语 #英语口语 #中考倒计时 #学霸秘籍" [ref=e831] [cursor=pointer]':
+                - /url: https://www.douyin.com/note/7623314040689682762
+              - link "广西高考成绩25日几点出" [ref=e833] [cursor=pointer]:
+                - /url: https://www.douyin.com/topic/7509885527022110747
+              - link "天津部分区二模2025分数线" [ref=e835] [cursor=pointer]:
+                - /url: https://www.douyin.com/shipin/7509904924940011561
+              - link "黑龙江高考3万名上什么大学" [ref=e837] [cursor=pointer]:
+                - /url: https://www.douyin.com/search/%E9%BB%91%E9%BE%99%E6%B1%9F%E9%AB%98%E8%80%833%E4%B8%87%E5%90%8D%E4%B8%8A%E4%BB%80%E4%B9%88%E5%A4%A7%E5%AD%A6
+              - link "徐良深圳演唱会" [ref=e839] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7622134532406456817?source=Baiduspider
+              - link "大金空调链接小爱同学和小度。" [ref=e841] [cursor=pointer]:
+                - /url: https://www.douyin.com/video/7196559449287429376?source=Baiduspider
+              - 'link "2023日产探路者，起售价36000美元，3.5L V6+9AT #日产探路者 #日产新奇骏 #汽车人共创计划" [ref=e843] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7188274771002445117?source=Baiduspider
+              - 'link "26考研英一阅读第四篇讲解，用这2个方法能全对 #考研 #考研阅读 #26考研英语 #考研英语 #考研英语一 #考研英语二" [ref=e845] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7586285997432884506?source=Baiduspider-sdc
+              - 'link "#一句歌词彻底爱上五月天 #五月天#五月天阿信#每天一首五月天 第五十七首<<回来吧>> 所有的人 都说时间是魔法" [ref=e847] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7331383960716561705?source=Baiduspider
+              - 'link "国庆假期不要带孩子旅游见世面了，反向遛娃才是准到爆的养娃玄学！#国庆遛娃的顶级打开方式 #遛娃好去处 #亲子教育 #自然教育 #家庭教育" [ref=e849] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7555140514719616271?source=Baiduspider
+              - 'link "赛点丁俊晖落后51分，为了胜利拼尽全力，连飚几十杆炸裂斯诺克！ #斯诺克 #台球 #台球是一种生活 #丁俊晖" [ref=e851] [cursor=pointer]':
+                - /url: https://www.douyin.com/video/7148800869172022542?source=Baiduspider-sdc
+  - article [ref=e857]:
+    - img [ref=e859]
+    - generic [ref=e860]:
+      - generic [ref=e861]:
+        - generic [ref=e862]: 登录后免费畅享高清视频
+        - img [ref=e864] [cursor=pointer]
+      - generic [ref=e867]:
+        - generic [ref=e870]:
+          - generic [ref=e872] [cursor=pointer]: 扫码登录
+          - generic [ref=e876]:
+            - generic [ref=e877]:
+              - generic [ref=e878] [cursor=pointer]: 如何扫码
+              - generic [ref=e879]:
+                - img "二维码" [ref=e880]
+                - img [ref=e882]
+              - img [ref=e894]
+            - paragraph [ref=e900]:
+              - paragraph [ref=e901]: 打开「抖音APP」点击左上角
+              - img [ref=e902]
+              - paragraph [ref=e908]: 扫一扫
+        - generic [ref=e911]:
+          - generic [ref=e912] [cursor=pointer]:
+            - generic [ref=e913]: 验证码登录
+            - img [ref=e915]
+            - generic [ref=e916]: 密码登录
+          - generic [ref=e920]:
+            - generic [ref=e922]:
+              - combobox "国家/地区" [ref=e925]: "+86"
+              - img [ref=e928]
+              - textbox "请输入手机号" [ref=e929]
+            - generic [ref=e931]:
+              - textbox "请输入验证码" [ref=e933]
+              - generic [ref=e934]: 获取验证码
+            - generic [ref=e937]: 登录
+            - generic "登录即代表同意用户协议和隐私政策" [ref=e939]:
+              - text: 登录即代表同意
+              - link "用户协议" [ref=e940] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+              - text: 和
+              - link "隐私政策" [ref=e941] [cursor=pointer]:
+                - /url: https://www.douyin.com/agreements/?id=6773901168964798477
