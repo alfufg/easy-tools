@@ -23,7 +23,7 @@
       "*://*.douyin.com/*"
     ],
     "side_panel": {
-      "default_path": "./src/popup/index.html"
+      "default_path": "./dist/src/popup/index.html"
     },
     "action": {
         "default_title": "Ben's tools"

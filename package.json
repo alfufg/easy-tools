@@ -1,0 +1,17 @@
+{
+  "name": "easy-tools",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:popup": "vite --config vite.config.mjs",
+    "build:popup": "vite build --config vite.config.mjs",
+    "build": "node scripts/build-extension.mjs && npm run build:popup"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.4"
+  }
+}
