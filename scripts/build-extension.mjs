@@ -34,4 +34,8 @@ if (distManifest.side_panel?.default_path) {
   distManifest.side_panel.default_path = "./src/popup/index.html";
 }
 
+if (distManifest.options_ui?.page) {
+  distManifest.options_ui.page = "./src/dashboard/index.html";
+}
+
 writeFileSync(distManifestPath, `${JSON.stringify(distManifest, null, 2)}\n`);

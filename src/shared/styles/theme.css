@@ -1,0 +1,357 @@
+/* Element Plus 温暖色调自定义主题 - Warm Organic Luxury */
+/* 继承 popup 的温暖色调，为所有工具页面提供统一的品牌感 */
+
+:root {
+  /* 主色系 - 苔藓绿（传承 popup） */
+  --el-color-primary: #0f766e;
+  --el-color-primary-light-3: #2d9a8f;
+  --el-color-primary-light-5: #52b5a9;
+  --el-color-primary-light-7: #7dd0c5;
+  --el-color-primary-light-8: #a2ddd5;
+  --el-color-primary-light-9: #c8ebe6;
+  --el-color-primary-dark-2: #0b5a54;
+
+  /* 成功色 - 森林绿 */
+  --el-color-success: #3b6f4f;
+  --el-color-success-light-3: #5a8f6e;
+  --el-color-success-light-5: #7da98c;
+
+  /* 警告色 -琥珀橙 */
+  --el-color-warning: #db7c26;
+  --el-color-warning-light-3: #e5963f;
+  --el-color-warning-light-5: #f0b058;
+
+  /* 危险色 - 玫瑰红 */
+  --el-color-danger: #b6465f;
+  --el-color-danger-light-3: #c5667a;
+  --el-color-danger-light-5: #d48695;
+
+  /* 信息色 - 紫罗兰 */
+  --el-color-info: #6657c2;
+  --el-color-info-light-3: #8275d1;
+  --el-color-info-light-5: #9e93e0;
+
+  /* 背景色 - 温暖米色系 */
+  --el-bg-color: #f8f1e8;
+  --el-bg-color-page: #efe8de;
+  --el-bg-color-overlay: #fffaf2;
+
+  /* 文本色 */
+  --el-text-color-primary: #1f2933;
+  --el-text-color-regular: #334155;
+  --el-text-color-secondary: #5f6c7b;
+  --el-text-color-placeholder: #8b96a5;
+
+  /* 边框色 */
+  --el-border-color: rgba(111, 79, 40, 0.14);
+  --el-border-color-light: rgba(111, 79, 40, 0.09);
+  --el-border-color-lighter: rgba(111, 79, 40, 0.06);
+  --el-border-color-extra-light: rgba(111, 79, 40, 0.04);
+
+  /* 填充色 */
+  --el-fill-color: rgba(17, 100, 102, 0.06);
+  --el-fill-color-light: rgba(17, 100, 102, 0.04);
+  --el-fill-color-lighter: rgba(17, 100, 102, 0.02);
+  --el-fill-color-extra-light: rgba(255, 255, 255, 0.42);
+  --el-fill-color-dark: rgba(17, 100, 102, 0.08);
+  --el-fill-color-darker: rgba(17, 100, 102, 0.12);
+  --el-fill-color-blank: rgba(255, 250, 242, 0.75);
+
+  /* 阴影 */
+  --el-box-shadow: 0 18px 40px rgba(46, 36, 24, 0.12);
+  --el-box-shadow-light: 0 12px 24px rgba(46, 36, 24, 0.08);
+  --el-box-shadow-lighter: 0 6px 12px rgba(46, 36, 24, 0.04);
+  --el-box-shadow-dark: 0 24px 48px rgba(46, 36, 24, 0.18);
+
+  /* 圆角 */
+  --el-border-radius-base: 16px;
+  --el-border-radius-small: 12px;
+  --el-border-radius-round: 999px;
+
+  /* 字体 */
+  --el-font-family: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --el-font-size-extra-large: 22px;
+  --el-font-size-large: 18px;
+  --el-font-size-medium: 16px;
+  --el-font-size-base: 14px;
+  --el-font-size-small: 13px;
+  --el-font-size-extra-small: 12px;
+
+  /* 动画 */
+  --el-transition-duration: 0.2s;
+  --el-transition-duration-fast: 0.15s;
+}
+
+/* 全局背景纹理 */
+body {
+  font-family: var(--el-font-family);
+  color: var(--el-text-color-primary);
+  background:
+    radial-gradient(circle at top left, rgba(242, 140, 40, 0.24), transparent 24%),
+    radial-gradient(circle at 92% 0%, rgba(102, 87, 194, 0.16), transparent 20%),
+    radial-gradient(circle at 88% 24%, rgba(15, 118, 110, 0.18), transparent 22%),
+    linear-gradient(180deg, #f8f1e8 0%, #efe8de 100%);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(17, 100, 102, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 100, 102, 0.025) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.65), transparent 92%);
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.32), transparent 16%),
+    radial-gradient(circle at 82% 10%, rgba(255, 255, 255, 0.22), transparent 14%);
+  opacity: 0.8;
+}
+
+/* 工具页面通用布局 */
+.tool-shell {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+/* Hero 区域 */
+.tool-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 14px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+  border: 1px solid var(--el-border-color);
+  border-radius: var(--el-border-radius-base);
+  background: var(--el-fill-color-blank);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--el-box-shadow);
+}
+
+.tool-hero__title {
+  display: grid;
+  gap: 4px;
+}
+
+.tool-hero__eyebrow {
+  margin: 0;
+  color: var(--el-color-primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.tool-hero h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.tool-hero__desc {
+  margin: 0;
+  color: var(--el-text-color-secondary);
+  font-size: 14px;
+}
+
+.tool-hero__actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* 内容区域 */
+.tool-content {
+  border: 1px solid var(--el-border-color);
+  border-radius: var(--el-border-radius-base);
+  background: var(--el-fill-color-blank);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--el-box-shadow);
+  padding: 20px;
+}
+
+/* 卡片面板 */
+.tool-panel {
+  padding: 16px 18px;
+  border: 1px solid rgba(15, 118, 110, 0.1);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.42);
+  margin-bottom: 14px;
+}
+
+.tool-panel__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.tool-panel__eyebrow {
+  margin: 0;
+  color: var(--el-text-color-secondary);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tool-panel__head h2 {
+  margin: 4px 0 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* 表单样式增强 */
+.el-form--tool {
+  --el-form-label-font-size: 14px;
+}
+
+.el-form--tool .el-form-item__label {
+  font-weight: 600;
+  color: var(--el-text-color-regular);
+}
+
+/* Tab 样式增强 */
+.el-tabs--tool {
+  --el-tabs-header-height: 44px;
+}
+
+.el-tabs--tool .el-tabs__header {
+  margin-bottom: 18px;
+}
+
+.el-tabs--tool .el-tabs__item {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 18px;
+}
+
+.el-tabs--tool .el-tabs__item.is-active {
+  color: var(--el-color-primary);
+}
+
+.el-tabs--tool .el-tabs__active-bar {
+  background-color: var(--el-color-primary);
+}
+
+/* 按钮样式增强 */
+.el-button--warm {
+  --el-button-bg-color: var(--el-color-warning);
+  --el-button-border-color: var(--el-color-warning);
+  --el-button-text-color: #fff;
+  --el-button-hover-bg-color: #e5963f;
+  --el-button-hover-border-color: #e5963f;
+  --el-button-active-bg-color: #d06a1b;
+  --el-button-active-border-color: #d06a1b;
+}
+
+.el-button--berry {
+  --el-button-bg-color: var(--el-color-danger);
+  --el-button-border-color: var(--el-color-danger);
+  --el-button-text-color: #fff;
+  --el-button-hover-bg-color: #c5667a;
+  --el-button-hover-border-color: #c5667a;
+  --el-button-active-bg-color: #a13550;
+  --el-button-active-border-color: #a13550;
+}
+
+.el-button--violet {
+  --el-button-bg-color: var(--el-color-info);
+  --el-button-border-color: var(--el-color-info);
+  --el-button-text-color: #fff;
+  --el-button-hover-bg-color: #8275d1;
+  --el-button-hover-border-color: #8275d1;
+  --el-button-active-bg-color: #5439b3;
+  --el-button-active-border-color: #5439b3;
+}
+
+/* 进度条样式 */
+.tool-progress {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(248, 241, 232, 0.8);
+  margin-top: 14px;
+}
+
+.tool-progress__text {
+  color: var(--el-text-color-secondary);
+  font-size: 13px;
+}
+
+/* 卡片网格布局 */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+/* 动画入场效果 */
+.reveal {
+  opacity: 0;
+  animation: section-rise 720ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes section-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 减少动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+/* 响应式调整 */
+@media (max-width: 800px) {
+  .tool-shell {
+    padding: 16px;
+  }
+
+  .tool-hero {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+  }
+
+  .tool-hero__actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 560px) {
+  .tool-shell {
+    padding: 12px;
+  }
+
+  .tool-hero,
+  .tool-content,
+  .tool-panel {
+    padding: 14px;
+  }
+
+  .tool-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -87,26 +87,50 @@ class DBHelper {
     }
 
     async update(storeName, indexName, value, updateFn) {
-        return this._transaction(storeName, 'readwrite', async store => {
+        return new Promise((resolve, reject) => {
+            const tx = this.db.transaction(storeName, 'readwrite');
+            const store = tx.objectStore(storeName);
             const index = store.index(indexName);
-            const cursor = await index.openCursor(IDBKeyRange.only(value));
-            while (cursor) {
+            const request = index.openCursor(IDBKeyRange.only(value));
+
+            request.onsuccess = event => {
+                const cursor = event.target.result;
+                if (!cursor) {
+                    return;
+                }
+
                 const data = cursor.value;
                 updateFn(data);
                 cursor.update(data);
                 cursor.continue();
-            }
+            };
+
+            request.onerror = event => reject(event.target.error);
+            tx.oncomplete = () => resolve();
+            tx.onerror = event => reject(event.target.error || tx.error);
         });
     }
 
     async delete(storeName, indexName, value) {
-        return this._transaction(storeName, 'readwrite', async store => {
+        return new Promise((resolve, reject) => {
+            const tx = this.db.transaction(storeName, 'readwrite');
+            const store = tx.objectStore(storeName);
             const index = store.index(indexName);
-            const cursor = await index.openCursor(IDBKeyRange.only(value));
-            while (cursor) {
+            const request = index.openCursor(IDBKeyRange.only(value));
+
+            request.onsuccess = event => {
+                const cursor = event.target.result;
+                if (!cursor) {
+                    return;
+                }
+
                 cursor.delete();
                 cursor.continue();
-            }
+            };
+
+            request.onerror = event => reject(event.target.error);
+            tx.oncomplete = () => resolve();
+            tx.onerror = event => reject(event.target.error || tx.error);
         });
     }
 
@@ -123,32 +147,26 @@ class DBHelper {
     }
 
     async upsert(storeName, item, indexName) {
-        return this._transaction(storeName, 'readwrite', async store => {
-            // 获取当前表的主键配置
-            const keyPath = store.keyPath;
-            
-            // 优先使用指定索引验证存在性
-            if (indexName) {
-                const index = store.index(indexName);
-                const existingItems = await index.getAll(item[indexName]);
-                
-                if (existingItems.length > 0) {
-                    // 存在则更新第一条匹配记录（需根据业务需求调整）
-                    const merged = { ...existingItems[0], ...item };
-                    return store.put(merged);
-                }
-            } 
-            // 默认主键验证
-            else if (item[keyPath]) {
-                const existing = await store.get(item[keyPath]);
-                if (existing) {
-                    return store.put({ ...existing, ...item });
-                }
+        if (indexName && item[indexName] !== undefined) {
+            const existingItems = await this.getByIndex(storeName, indexName, item[indexName]);
+
+            if (existingItems.length > 0) {
+                const merged = { ...existingItems[0], ...item };
+                return this._transaction(storeName, 'readwrite', store => store.put(merged));
             }
-            
-            // 新增记录
-            return store.add(item);
-        });
+        }
+
+        const storeConfig = this.STORES.find(store => store.name === storeName);
+        const keyPath = storeConfig?.keyPath;
+
+        if (keyPath && item[keyPath] !== undefined) {
+            const existing = await this.get(storeName, item[keyPath]);
+            if (existing) {
+                return this._transaction(storeName, 'readwrite', store => store.put({ ...existing, ...item }));
+            }
+        }
+
+        return this._transaction(storeName, 'readwrite', store => store.add(item));
     }
 }
 

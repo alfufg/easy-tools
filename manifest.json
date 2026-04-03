@@ -25,6 +25,10 @@
     "side_panel": {
       "default_path": "./dist/src/popup/index.html"
     },
+    "options_ui": {
+      "page": "./dist/src/dashboard/index.html",
+      "open_in_tab": true
+    },
     "action": {
         "default_title": "Ben's tools"
     },
@@ -44,7 +48,8 @@
     "web_accessible_resources": [
       {
         "resources": [
-          "src/*"
+          "src/*",
+          "dist/*"
         ],
         "matches": ["<all_urls>"]
       }

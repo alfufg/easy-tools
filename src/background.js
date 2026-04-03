@@ -3,7 +3,7 @@ import DBHelper from "/src/tools/demo/indexeddb/dbhelper.js"
 
 
 // 初始化包含多个表的数据库
-const dbHelper = new DBHelper('toolsDB', 2, [
+const dbHelper = new DBHelper('toolsDB', 4, [
     {
         name: 'xhs_comments',
         keyPath: 'comment_id',
@@ -24,6 +24,17 @@ const dbHelper = new DBHelper('toolsDB', 2, [
             { name: 'crawl_type', keyPath: 'crawl_type', options: { unique: false } },
             { name: 'video_id', keyPath: 'video_id', options: { unique: false } },
             { name: 'keyword', keyPath: 'keyword', options: { unique: false } },
+        ]
+    },
+    {
+        name: 'dy_video_list',
+        keyPath: 'id',
+        autoIncrement: true,
+        indexes: [
+            { name: 'id', keyPath: 'id', options: { unique: true } },
+            { name: 'keyword', keyPath: 'keyword', options: { unique: false } },
+            { name: 'videoLink', keyPath: 'videoLink', options: { unique: false } },
+            { name: 'crawled_at', keyPath: 'crawled_at', options: { unique: false } },
         ]
     }
 ]);

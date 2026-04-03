@@ -129,6 +129,11 @@ input {
   border-radius: var(--radius-lg);
 }
 
+.section-block--workspace {
+  position: relative;
+  padding-top: 18px;
+}
+
 .control-panel {
   display: grid;
   gap: 10px;
@@ -193,6 +198,38 @@ input {
   transform: translateY(-1px);
   border-color: rgba(15, 118, 110, 0.3);
   box-shadow: 0 14px 24px rgba(17, 100, 102, 0.1);
+}
+
+.workspace-launch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 5px 10px;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.58);
+  color: var(--accent-strong);
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.workspace-launch:hover,
+.workspace-launch:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(15, 118, 110, 0.24);
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.workspace-launch--corner {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .quick-link__icon,
