@@ -26,6 +26,18 @@ const tools = [
   { id: 'dy_video_list', name: '抖音视频列表', icon: '视', color: 'teal' }
 ]
 
+const numericColumnProps = new Set([
+  'displayIndex',
+  'like_count',
+  'sub_comment_count',
+  'likeCount',
+  'commentCount',
+  'shareCount',
+  'collectCount',
+  'followerCount',
+  'totalFavorited'
+])
+
 const tableColumns = computed(() => {
   if (activeTool.value === 'xhs_comments') {
     return [
@@ -284,6 +296,23 @@ function copyToClipboard(text) {
   })
 }
 
+function openExternalLink(url) {
+  if (!url) {
+    ElMessage.warning('链接为空')
+    return
+  }
+
+  try {
+    chrome.tabs.create({ url })
+  } catch (error) {
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+}
+
+function isNumericColumn(prop) {
+  return numericColumnProps.has(prop)
+}
+
 function goBack() {
   if (window.history.length > 1) {
     window.history.back()
@@ -394,12 +423,23 @@ function goBack() {
             :label="column.label"
             :width="column.width"
             :min-width="column.minWidth"
+            :align="isNumericColumn(column.prop) ? 'right' : 'left'"
+            :header-align="isNumericColumn(column.prop) ? 'right' : 'left'"
             show-overflow-tooltip
           >
             <template #default="{ row }">
               <span v-if="column.prop === 'comment'" class="comment-text">
                 {{ row[column.prop] }}
               </span>
+              <el-link
+                v-else-if="column.prop === 'videoLink' || column.prop === 'authorLink'"
+                type="primary"
+                :underline="false"
+                class="table-link"
+                @click="openExternalLink(row[column.prop])"
+              >
+                {{ row[column.prop] }}
+              </el-link>
               <span v-else>{{ row[column.prop] }}</span>
             </template>
           </el-table-column>
@@ -563,6 +603,14 @@ function goBack() {
   -webkit-box-orient: vertical;
   overflow: hidden;
   word-break: break-word;
+}
+
+.table-link {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .data-footer {
